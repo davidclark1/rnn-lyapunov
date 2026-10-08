@@ -1,0 +1,10 @@
+# fig1_network: 8 data files; GPU-hours 0.7
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_network.py --g 3 --delta 0.05 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.25 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.5 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --delta 0.05 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --delta 0.1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --delta 0.25 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --delta 0.5 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network

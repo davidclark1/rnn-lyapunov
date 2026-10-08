@@ -1,0 +1,4736 @@
+{
+ "kind": "manifest",
+ "description": "Every result file that enters a plotted number of the paper (built by tools/build_dataset.py from ~/Lyapunov; verified by tools/verify_dataset.py)",
+ "total_bytes": 17727192,
+ "files": {
+  "max_exponent_operator.json": {
+   "kind": "max_exponent_operator",
+   "source": "rnn-lyapunov results/max_exponent_operator.json (scripts/run_max_exponent.py; every number of ~/Lyapunov/results/max_exponent_operator.json reproduced exactly; plus delta = 1, g = 1.2)",
+   "gpu_seconds": null,
+   "uses": [
+    "Fig. 4a,b operator spectra",
+    "Fig. 4c theory s_*(g)"
+   ],
+   "sha256": "549c2f949e30b4ff55b681d87567d2beedd1983d6cce27a0f68c4f086ae3e4ff",
+   "bytes": 252191
+  },
+  "network/flow_g1.25_rk4dt0.1_N8192_k256_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.25_h0.1_N8192_k256_seed0_long.json",
+   "gpu_seconds": 449.90308407798875,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0 g=1.25"
+   ],
+   "sha256": "0a22e1859431fe90a3163073fb9f45bbbd9364840da64fc75bd4031746f3c9a0",
+   "bytes": 6890
+  },
+  "network/flow_g1.25_rk4dt0.1_N8192_k256_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.25_h0.1_N8192_k256_seed1_long.json",
+   "gpu_seconds": 456.11159276700346,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0 g=1.25"
+   ],
+   "sha256": "7eb9b3acd477090d1e13f7a2536bc139eeac8bc48b5e3c280456f453f177779e",
+   "bytes": 6886
+  },
+  "network/flow_g1.25_rk4dt0.1_N8192_k256_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.25_h0.1_N8192_k256_seed2_long.json",
+   "gpu_seconds": 452.8642260619963,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0 g=1.25"
+   ],
+   "sha256": "1aa088e4362326ab0057bbd35a1e191a191c913b75152f13345174de567518c3",
+   "bytes": 6905
+  },
+  "network/flow_g1.25_rk4dt0.1_N8192_k256_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.25_h0.1_N8192_k256_seed3_long.json",
+   "gpu_seconds": 453.2153651310073,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0 g=1.25"
+   ],
+   "sha256": "0cbff2659bf5d55a1797fabc2f1a1e8ef6b1021a523a035b48831185859365f8",
+   "bytes": 6887
+  },
+  "network/flow_g1.25_rk4dt0.1_N8192_k256_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.25_h0.1_N8192_k256_seed4_long.json",
+   "gpu_seconds": 458.04335632396396,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0 g=1.25"
+   ],
+   "sha256": "51c8533d40119201687e0389fa23ec6ea390982b854664902919e65223678dd3",
+   "bytes": 6900
+  },
+  "network/flow_g1.5_rk4dt0.1_N8192_k512_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.5_h0.1_N8192_k512_seed0.json",
+   "gpu_seconds": 404.5309472820081,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0 g=1.5"
+   ],
+   "sha256": "4c23ec61570d6e6b9db09c44bbd212f77901531f348b225bfce8082c2fa337a8",
+   "bytes": 12161
+  },
+  "network/flow_g1.5_rk4dt0.1_N8192_k512_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.5_h0.1_N8192_k512_seed1.json",
+   "gpu_seconds": 399.8463422480272,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0 g=1.5"
+   ],
+   "sha256": "af5810cb98aba7b9a012f82b9df1981a7d121b5f49d66cbc9e2664ffbec12b13",
+   "bytes": 12159
+  },
+  "network/flow_g1.5_rk4dt0.1_N8192_k512_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.5_h0.1_N8192_k512_seed2.json",
+   "gpu_seconds": 406.73422833898803,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0 g=1.5"
+   ],
+   "sha256": "ba5dc9b7146cac0ffdeae62abb29193f53c6fcfb60c7e9409513f7162c2ddd07",
+   "bytes": 12157
+  },
+  "network/flow_g1.5_rk4dt0.1_N8192_k512_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.5_h0.1_N8192_k512_seed3.json",
+   "gpu_seconds": 405.9960060500016,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0 g=1.5"
+   ],
+   "sha256": "e8cf9f318af833fac92b5b9c07089d1c0ed45833b702b20da2ff0a8e5eb73a5d",
+   "bytes": 12167
+  },
+  "network/flow_g1.5_rk4dt0.1_N8192_k512_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g1.5_h0.1_N8192_k512_seed4.json",
+   "gpu_seconds": 407.8416152400023,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0 g=1.5"
+   ],
+   "sha256": "6f29cf72bfd5925a9096e4fc23d3f0a2119a1737c1c285e4b122a0c95602c96d",
+   "bytes": 12168
+  },
+  "network/flow_g10_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g10_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 219.28476780396886,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=10",
+    "Fig. 4c simulation max exponent δ key 0 g=10"
+   ],
+   "sha256": "2720c10660485db73fdc9f98485e09c857066c7d0d063d418d87cadc4e4142ef",
+   "bytes": 21950
+  },
+  "network/flow_g12_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g12_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.84008003899362,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=12",
+    "Fig. 4c simulation max exponent δ key 0 g=12"
+   ],
+   "sha256": "30b8d53f29222675d0f8c9fd66c0fd1a932c236487747af40384209a28804f52",
+   "bytes": 21935
+  },
+  "network/flow_g14_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g14_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.79289800400147,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=14",
+    "Fig. 4c simulation max exponent δ key 0 g=14"
+   ],
+   "sha256": "83eb8778668e3114e5fb0cb16106d7e7b0476b0a6b1e09be7a6d4945857b9302",
+   "bytes": 21911
+  },
+  "network/flow_g16_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g16_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.94155332597438,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=16",
+    "Fig. 4c simulation max exponent δ key 0 g=16"
+   ],
+   "sha256": "7e37e33210e17065d36fdc267d823a729080eba2ab4349a0c7b9894a671abda8",
+   "bytes": 21915
+  },
+  "network/flow_g18_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g18_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 219.21331332699629,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=18",
+    "Fig. 4c simulation max exponent δ key 0 g=18"
+   ],
+   "sha256": "65a0a2cf2f4fb7bfcd1bdeca5c148e4527a71018599616e8d3b56090ab2692fb",
+   "bytes": 21887
+  },
+  "network/flow_g2.5_rk4dt0.1_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g2.5_h0.1_N4096_k1024_seed0.json",
+   "gpu_seconds": 133.47614385996712,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=2.5",
+    "Fig. 4c simulation max exponent δ key 0 g=2.5"
+   ],
+   "sha256": "6901d514411add8e2b645d4e8dfb6f8fde696c3004da2e0de3849858f29d4ba7",
+   "bytes": 22179
+  },
+  "network/flow_g20_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g20_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.28166311600944,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=20",
+    "Fig. 4c simulation max exponent δ key 0 g=20"
+   ],
+   "sha256": "0c3f4f5f0c311cc460afd738eaaeae477a44fb31716e9e0550257638643f4e7b",
+   "bytes": 21897
+  },
+  "network/flow_g2_rk4dt0.1_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g2_h0.1_N4096_k1024_seed0.json",
+   "gpu_seconds": 133.49405352497706,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=2",
+    "Fig. 4c simulation max exponent δ key 0 g=2"
+   ],
+   "sha256": "f57e062073f800c5cd78afe1138d8ead5ec358456d76facca04c7d833bd3efba",
+   "bytes": 22235
+  },
+  "network/flow_g3_rk4dt0.1_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g3_h0.1_N4096_k1024_seed0.json",
+   "gpu_seconds": 133.0420549410046,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=3",
+    "Fig. 4c simulation max exponent δ key 0 g=3"
+   ],
+   "sha256": "9a68e190d009a03c2d952015b6c2b1f958ee6804e9dc4d6e651a02438b6ba495",
+   "bytes": 22135
+  },
+  "network/flow_g4_rk4dt0.1_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g4_h0.1_N4096_k1024_seed0.json",
+   "gpu_seconds": 133.11608062201412,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=4",
+    "Fig. 4c simulation max exponent δ key 0 g=4"
+   ],
+   "sha256": "bf724fbd5db4f28c0a2b5d403a103c70c07e6fd33ed476cf77c0cce52f6aee21",
+   "bytes": 22060
+  },
+  "network/flow_g5_rk4dt0.1_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g5_h0.1_N4096_k1024_seed0.json",
+   "gpu_seconds": 133.35197848599637,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=5",
+    "Fig. 4c simulation max exponent δ key 0 g=5"
+   ],
+   "sha256": "947912681dc896629f30ed4e52e3c2a2f51ba669802469983891f3c433393bd2",
+   "bytes": 22019
+  },
+  "network/flow_g6_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g6_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.84923351701582,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=6",
+    "Fig. 4c simulation max exponent δ key 0 g=6"
+   ],
+   "sha256": "63573ee7c0a91ee394e377e781c8495b3029f097d3df95851113ee572ef33034",
+   "bytes": 22027
+  },
+  "network/flow_g8_rk4dt0.05_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/rk4_g8_h0.05_N4096_k1024_seed0.json",
+   "gpu_seconds": 221.8613743549795,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ→0 g=8",
+    "Fig. 4c simulation max exponent δ key 0 g=8"
+   ],
+   "sha256": "c856de7225b7de86120647a7d14d2778bc1e23eabbe6cbbd9a8446a4dc9ffc88",
+   "bytes": 21966
+  },
+  "network/map_g1.25_delta0.25_N16384_k256_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.25_N16384_k256_seed0_long.json",
+   "gpu_seconds": 580.7325864769809,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.25"
+   ],
+   "sha256": "e5b61f59204178ab28cfb30bffabc7151a82f26f61a1261b5729ea1378ca9d64",
+   "bytes": 6973
+  },
+  "network/map_g1.25_delta0.25_N16384_k256_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.25_N16384_k256_seed1_long.json",
+   "gpu_seconds": 561.930979613011,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.25"
+   ],
+   "sha256": "75441ce3ccc33d267e9fccfdfb062594fdc9c4f30791ac01b52a48cafe7b83b6",
+   "bytes": 7004
+  },
+  "network/map_g1.25_delta0.25_N16384_k256_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.25_N16384_k256_seed2_long.json",
+   "gpu_seconds": 562.5025295130035,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.25"
+   ],
+   "sha256": "d701b119797c8355728908a54fc58f8471564d0d50338cb60ece227d8465b445",
+   "bytes": 6982
+  },
+  "network/map_g1.25_delta0.25_N16384_k256_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.25_N16384_k256_seed3_long.json",
+   "gpu_seconds": 562.6356074580108,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.25"
+   ],
+   "sha256": "b0cbec9e334349a14d409406c548b3081dc177c5933c5449cffccd3b89ac96c2",
+   "bytes": 6991
+  },
+  "network/map_g1.25_delta0.25_N16384_k256_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.25_N16384_k256_seed4_long.json",
+   "gpu_seconds": 562.1521090309834,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.25"
+   ],
+   "sha256": "abf8bbea42b9b418115ec837a306343041d43a4b7ae5c41c9b1d7f042937f0fd",
+   "bytes": 7002
+  },
+  "network/map_g1.25_delta0.5_N16384_k256_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.5_N16384_k256_seed0_long.json",
+   "gpu_seconds": 343.4166273770097,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.25"
+   ],
+   "sha256": "8b86aaa4ac0b74b946b763eab9007358d4acdec2fadb6a38df0bbab33345452c",
+   "bytes": 7000
+  },
+  "network/map_g1.25_delta0.5_N16384_k256_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.5_N16384_k256_seed1_long.json",
+   "gpu_seconds": 343.3598488419957,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.25"
+   ],
+   "sha256": "e56af05d4152f18679845fc81444a5503b58428e67e6ed30b5d0aaf9041d4708",
+   "bytes": 7017
+  },
+  "network/map_g1.25_delta0.5_N16384_k256_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.5_N16384_k256_seed2_long.json",
+   "gpu_seconds": 343.40749070001766,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.25"
+   ],
+   "sha256": "22308c3fbee8d32c59035c4bb256d2eaded1128d122cdc18a39a25808f35f939",
+   "bytes": 7025
+  },
+  "network/map_g1.25_delta0.5_N16384_k256_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.5_N16384_k256_seed3_long.json",
+   "gpu_seconds": 343.42559139899095,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.25"
+   ],
+   "sha256": "2a169dd0cb297c4bc3840558694a33e786f3d3e91b2eef44d5c2cce7fd6732b2",
+   "bytes": 7013
+  },
+  "network/map_g1.25_delta0.5_N16384_k256_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.25_h0.5_N16384_k256_seed4_long.json",
+   "gpu_seconds": 343.40358448700863,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.25",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.25"
+   ],
+   "sha256": "f996295f0c18d124b79736152e6e04bdd177dedcd43215c20c616c98aec68f3d",
+   "bytes": 7011
+  },
+  "network/map_g1.2_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g1.2_h1_N4096_seed0.json",
+   "gpu_seconds": 198.1742001179955,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=1.2"
+   ],
+   "sha256": "3d2f0ad53427a5a7c8244144fd530d8b650b562fb66acc28507bcd52d815a05e",
+   "bytes": 84836
+  },
+  "network/map_g1.5_delta0.25_N16384_k768_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.25_N16384_k768_seed0.json",
+   "gpu_seconds": 861.7026023110084,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.5"
+   ],
+   "sha256": "04f6898f62eff16b8315ccebc864976111e0b96bb32ae4a09c57104b0820f5ed",
+   "bytes": 17586
+  },
+  "network/map_g1.5_delta0.25_N16384_k768_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.25_N16384_k768_seed1.json",
+   "gpu_seconds": 861.6973443669849,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.5"
+   ],
+   "sha256": "edb50e406964d41f74fe73faba00d2425d892070e841512563bf851e967b6b0f",
+   "bytes": 17622
+  },
+  "network/map_g1.5_delta0.25_N16384_k768_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.25_N16384_k768_seed2.json",
+   "gpu_seconds": 861.9371036540251,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.5"
+   ],
+   "sha256": "4416d43e3975139bf6e6010089ccbe15c09b4231ecb9efe1b8696d5d3c403290",
+   "bytes": 17624
+  },
+  "network/map_g1.5_delta0.25_N16384_k768_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.25_N16384_k768_seed3.json",
+   "gpu_seconds": 861.4204484180082,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.5"
+   ],
+   "sha256": "b17c6bb26542a91c72bb6689efe24b9c549837e0ddc8dec62f0cb8b7712b76ab",
+   "bytes": 17599
+  },
+  "network/map_g1.5_delta0.25_N16384_k768_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.25_N16384_k768_seed4.json",
+   "gpu_seconds": 861.5168309790024,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.5"
+   ],
+   "sha256": "411637f44c8a513a933915ee77b96a4f9347cd49b0d304dcc2108774aa70a8e6",
+   "bytes": 17575
+  },
+  "network/map_g1.5_delta0.5_N16384_k768_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.5_N16384_k768_seed0.json",
+   "gpu_seconds": 543.1478842819924,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.5"
+   ],
+   "sha256": "7024e8584040c935aff5141258e2a05bf6849d968bf31c0b39244bfe54a7d356",
+   "bytes": 17629
+  },
+  "network/map_g1.5_delta0.5_N16384_k768_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.5_N16384_k768_seed1.json",
+   "gpu_seconds": 543.2766111810051,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.5"
+   ],
+   "sha256": "6e3d81bfcf13d00769281fe4e4446637efb28f75aa8a2c2cd59a1ea8e270c165",
+   "bytes": 17649
+  },
+  "network/map_g1.5_delta0.5_N16384_k768_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.5_N16384_k768_seed2.json",
+   "gpu_seconds": 543.8076102510095,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.5"
+   ],
+   "sha256": "fa585540506f8e5c7aaa764702706a34a8cf6337861058ef75ac024a1ba0dde9",
+   "bytes": 17639
+  },
+  "network/map_g1.5_delta0.5_N16384_k768_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.5_N16384_k768_seed3.json",
+   "gpu_seconds": 543.8964362439874,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.5"
+   ],
+   "sha256": "5fcc9fbc8f2f232794f0f4d75cd904a8812fa29f786618e317e6a69834cb62d1",
+   "bytes": 17652
+  },
+  "network/map_g1.5_delta0.5_N16384_k768_seed4.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.5_h0.5_N16384_k768_seed4.json",
+   "gpu_seconds": 543.3239695660013,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=1.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.5"
+   ],
+   "sha256": "3aaca908ec32eab19f22bcf4d9b0e127aa4c02d21f43544a419f8df0daeccf54",
+   "bytes": 17639
+  },
+  "network/map_g1.5_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g1.5_h1_N4096_seed0.json",
+   "gpu_seconds": 198.31500808300916,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=1.5"
+   ],
+   "sha256": "1b755f82b18e38203047ce5d0cf4753941c4ecaf2a7be818ef0ba623b3e516e6",
+   "bytes": 84358
+  },
+  "network/map_g1.75_delta0.25_N16384_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.75_h0.25_N16384_k1024_seed0.json",
+   "gpu_seconds": 1140.3687320319877,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 0.25 g=1.75"
+   ],
+   "sha256": "f23091c406040357478f211be7d4ea9c229c371c2cc56f67c2d7a4756ebb8bd1",
+   "bytes": 22860
+  },
+  "network/map_g1.75_delta0.5_N16384_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g1.75_h0.5_N16384_k1024_seed0.json",
+   "gpu_seconds": 730.6117847909918,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 0.5 g=1.75"
+   ],
+   "sha256": "1d7d4797e273b79fd37edaad916ce77b66f523c5e7f8a63110e68883200d4075",
+   "bytes": 22899
+  },
+  "network/map_g10_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g10_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.50736384798074,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=10",
+    "Fig. 4c simulation max exponent δ key 0.25 g=10"
+   ],
+   "sha256": "7e4343e7123270b1d88cead73e4663a5340d35e65a965f309de399aba65268e2",
+   "bytes": 21939
+  },
+  "network/map_g10_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g10_h0.5_N4096_k1024_seed0_repro.json",
+   "gpu_seconds": 88.21198460101732,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=10",
+    "Fig. 4c simulation max exponent δ key 0.5 g=10"
+   ],
+   "sha256": "bf86804a40da623d4b14222f4a97c4f0046fd88c4f6a3fe65fbbf9c9df559e8c",
+   "bytes": 21851
+  },
+  "network/map_g10_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g10_h1_N4096_seed0.json",
+   "gpu_seconds": 197.57179557299241,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=10"
+   ],
+   "sha256": "a363fbf75234b372bf07972bb38df461ffa301dfccdfc3dd15d35062433870e9",
+   "bytes": 81210
+  },
+  "network/map_g12_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g12_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 99.73451453700545,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=12",
+    "Fig. 4c simulation max exponent δ key 0.25 g=12"
+   ],
+   "sha256": "b23573830ff6223dba5d4d5f00a0de46fd2263a305ef3535a0b2097efd244bed",
+   "bytes": 21914
+  },
+  "network/map_g12_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g12_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 88.13466083700769,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=12",
+    "Fig. 4c simulation max exponent δ key 0.5 g=12"
+   ],
+   "sha256": "e0384f3368f2b6acd6449b17845ceb18e3269c9cd3e41d97b885fb25d12aa97a",
+   "bytes": 21778
+  },
+  "network/map_g14_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g14_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 99.72158572499757,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=14",
+    "Fig. 4c simulation max exponent δ key 0.25 g=14"
+   ],
+   "sha256": "f12b445d0edeb323d240c99fc2b1a4cd9ce989cb57f5f398eca01edf693fcc46",
+   "bytes": 21913
+  },
+  "network/map_g14_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g14_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 88.23222921098932,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=14",
+    "Fig. 4c simulation max exponent δ key 0.5 g=14"
+   ],
+   "sha256": "7cb4701cbff0c11d19d49e5242d33148c8161a0e0bfee48df092ad983f04b1e1",
+   "bytes": 21770
+  },
+  "network/map_g16_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g16_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 99.81401008399553,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=16",
+    "Fig. 4c simulation max exponent δ key 0.25 g=16"
+   ],
+   "sha256": "ff5bcc035edb306b7c735f351c955b0783b727262c5a6fd9e698511ee7ec27bd",
+   "bytes": 21873
+  },
+  "network/map_g16_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g16_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 88.08190966298571,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=16",
+    "Fig. 4c simulation max exponent δ key 0.5 g=16"
+   ],
+   "sha256": "c9c430a16c63f6bc8310da558ba2bd57e0034baeca61505b84504a37a16c1fa2",
+   "bytes": 21748
+  },
+  "network/map_g18_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g18_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 99.73065873401356,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=18",
+    "Fig. 4c simulation max exponent δ key 0.25 g=18"
+   ],
+   "sha256": "da153de3933519a633dd5006b5732c312218bf1bcb9c15f74f7beebcc9d5eb36",
+   "bytes": 21852
+  },
+  "network/map_g18_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g18_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 88.17797659698408,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=18",
+    "Fig. 4c simulation max exponent δ key 0.5 g=18"
+   ],
+   "sha256": "99da871e2ac7bc9f5a7449729ad56f2667d08ed311c129622185866dcbb5cfd1",
+   "bytes": 21674
+  },
+  "network/map_g2.5_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2.5_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.27418797201244,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=2.5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=2.5"
+   ],
+   "sha256": "99dcb0998c3148cab01dbaac180c3bbf71d60c9ba3753d6466683b878a9b6dd0",
+   "bytes": 22211
+  },
+  "network/map_g2.5_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2.5_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 60.92749453702709,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=2.5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=2.5"
+   ],
+   "sha256": "e603ce2c3e650a4f9e9868f659257ec188466865f8cd76233aa36d594e56cd18",
+   "bytes": 22256
+  },
+  "network/map_g2.5_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2.5_h1_N4096_seed0.json",
+   "gpu_seconds": 197.84322439000243,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=2.5"
+   ],
+   "sha256": "c39cb9a804ff971cdfb3379255aab3bdc830af0022d8a02480c0e140f96ce3fa",
+   "bytes": 82714
+  },
+  "network/map_g20_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g20_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 99.73868319197209,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=20",
+    "Fig. 4c simulation max exponent δ key 0.25 g=20"
+   ],
+   "sha256": "0b5ec3331f9370e3d4d832a5a26312025f3ece20d8b7ecacaf6390e1aa51a2e4",
+   "bytes": 21847
+  },
+  "network/map_g20_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "results/network/map_g20_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 88.518211927003,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=20",
+    "Fig. 4c simulation max exponent δ key 0.5 g=20"
+   ],
+   "sha256": "2a47229c202346cad9601132e65e197bb63686e8ab81a7ce397452502eae512f",
+   "bytes": 21694
+  },
+  "network/map_g2_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.95718781196047,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=2",
+    "Fig. 4c simulation max exponent δ key 0.25 g=2"
+   ],
+   "sha256": "85cd3d5d4217a2c25b43a7ddd7287274b008afe81873d078489ff02d01602425",
+   "bytes": 22267
+  },
+  "network/map_g2_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 60.617853176023345,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=2",
+    "Fig. 4c simulation max exponent δ key 0.5 g=2"
+   ],
+   "sha256": "b91684146b841b57780a4d0646f8e3d304e01f76ce6cda19fc94c4ff30ddc152",
+   "bytes": 22334
+  },
+  "network/map_g2_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g2_h1_N4096_seed0.json",
+   "gpu_seconds": 198.00810679700226,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=2"
+   ],
+   "sha256": "57a8a8496f3d358a93e8eaf7b0acd7ed8cce6d784517b6d8160bb58a754d25a3",
+   "bytes": 83364
+  },
+  "network/map_g3_delta0.05_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.05_N4096_seed0.json",
+   "gpu_seconds": 456.3943556890008,
+   "uses": [
+    "Fig. 1 simulation δ=0.05 g=3"
+   ],
+   "sha256": "e24060ec044ba03d6518e72fd913a7076a1f777ab09ff8025c9566efe90327a5",
+   "bytes": 82853
+  },
+  "network/map_g3_delta0.1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.1_N4096_seed0.json",
+   "gpu_seconds": 318.25283163500717,
+   "uses": [
+    "Fig. 1 simulation δ=0.1 g=3"
+   ],
+   "sha256": "d57d7da15507e09d922f2c4c50984a638047aa4256c3802a47edee0cd27c5950",
+   "bytes": 82790
+  },
+  "network/map_g3_delta0.25_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.25_N4096_seed0.json",
+   "gpu_seconds": 232.01933736004867,
+   "uses": [
+    "Fig. 1 simulation δ=0.25 g=3",
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=3",
+    "Fig. 4c simulation max exponent δ key 0.25 g=3"
+   ],
+   "sha256": "54f371774b19387a4dbb031b1b9fe22f1c452e22a5031fa4f11faed7ed6efa0f",
+   "bytes": 82742
+  },
+  "network/map_g3_delta0.25_N4096_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.25_N4096_seed1.json",
+   "gpu_seconds": 234.40128931502113,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=3",
+    "Fig. 4c simulation max exponent δ key 0.25 g=3"
+   ],
+   "sha256": "a6f778ec6653e94d68c95d1bc83933d9b608f4adca7750565fc52b710b18ea27",
+   "bytes": 82753
+  },
+  "network/map_g3_delta0.25_N4096_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.25_N4096_seed2.json",
+   "gpu_seconds": 235.7015229310491,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=3",
+    "Fig. 4c simulation max exponent δ key 0.25 g=3"
+   ],
+   "sha256": "d7d30868dadb21545210935a3bc77dd0ef75080a69e951150432f1859a55fae0",
+   "bytes": 82781
+  },
+  "network/map_g3_delta0.5_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.5_N4096_seed0.json",
+   "gpu_seconds": 207.77512378897518,
+   "uses": [
+    "Fig. 1 simulation δ=0.5 g=3",
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=3",
+    "Fig. 4c simulation max exponent δ key 0.5 g=3"
+   ],
+   "sha256": "69a0bdf95c4cf45ba2d43feac19e28f843ecadae6b49e4584f2e5eeae143cdd2",
+   "bytes": 82741
+  },
+  "network/map_g3_delta0.5_N4096_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.5_N4096_seed1.json",
+   "gpu_seconds": 279.75386488699587,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=3",
+    "Fig. 4c simulation max exponent δ key 0.5 g=3"
+   ],
+   "sha256": "88635dcae796e739385ad9f10557aae6d47fa173a8401abc41f3ba5723439bba",
+   "bytes": 82689
+  },
+  "network/map_g3_delta0.5_N4096_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.5_N4096_seed2.json",
+   "gpu_seconds": 207.5734221879975,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=3",
+    "Fig. 4c simulation max exponent δ key 0.5 g=3"
+   ],
+   "sha256": "9feb8701284fbcabae932e08f726a3b0a90c89a811721a4a1eacaecfa61188b7",
+   "bytes": 82686
+  },
+  "network/map_g3_delta0.5_N4096_seed3.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h0.5_N4096_seed3.json",
+   "gpu_seconds": 207.02082820003852,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=3",
+    "Fig. 4c simulation max exponent δ key 0.5 g=3"
+   ],
+   "sha256": "53749748f530f324ab6015b9de867e80b1dcb2b06ec020626abe48525c324460",
+   "bytes": 82742
+  },
+  "network/map_g3_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h1_N4096_seed0.json",
+   "gpu_seconds": 289.32924688904313,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=3"
+   ],
+   "sha256": "89ca0757616010bfb9bc23f4a3fbe2d626569e3feae9b24b537728755c792700",
+   "bytes": 82216
+  },
+  "network/map_g3_delta1_N4096_seed1.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h1_N4096_seed1.json",
+   "gpu_seconds": 197.48107950697886,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=3"
+   ],
+   "sha256": "f17a1915af35eca1d2a1c8d8f0716cd71113504f3746ecde1b1f74babde0c8ff",
+   "bytes": 82233
+  },
+  "network/map_g3_delta1_N4096_seed2.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g3_h1_N4096_seed2.json",
+   "gpu_seconds": 224.28790234297048,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=3"
+   ],
+   "sha256": "8beaf4bab0df3aa48a87ecbaa620b77d329cc5b05a0388266d2791ea16cf9a38",
+   "bytes": 82265
+  },
+  "network/map_g4_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g4_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.17780347098596,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=4",
+    "Fig. 4c simulation max exponent δ key 0.25 g=4"
+   ],
+   "sha256": "3644c1943550333780b9f302a3666aeae623395eebab938df619c22e47f388d5",
+   "bytes": 22118
+  },
+  "network/map_g4_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g4_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 59.45721076900372,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=4",
+    "Fig. 4c simulation max exponent δ key 0.5 g=4"
+   ],
+   "sha256": "28db4c9dfa7e507640e634e119b539310b5825d177508b9a8d3a0d88d39d252d",
+   "bytes": 22132
+  },
+  "network/map_g4_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g4_h1_N4096_seed0.json",
+   "gpu_seconds": 196.16528782004025,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=4"
+   ],
+   "sha256": "4c44e18d4cf160b35ad451ef0f1536a620e1e57b713e00e3dc6e0364fcbece71",
+   "bytes": 81616
+  },
+  "network/map_g5_delta0.05_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g5_h0.05_N4096_seed0.json",
+   "gpu_seconds": 462.4219490510295,
+   "uses": [
+    "Fig. 1 simulation δ=0.05 g=5"
+   ],
+   "sha256": "80385704b6d70be65df95ba8fbc3847370ed905de6f6378db8df576fb7f94d16",
+   "bytes": 82710
+  },
+  "network/map_g5_delta0.1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g5_h0.1_N4096_seed0.json",
+   "gpu_seconds": 341.6354900150327,
+   "uses": [
+    "Fig. 1 simulation δ=0.1 g=5"
+   ],
+   "sha256": "e8a80f75a912ae546f1566216c947d8c2d81cfe8f828da4887f7b9bdc5a266a8",
+   "bytes": 82671
+  },
+  "network/map_g5_delta0.25_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g5_h0.25_N4096_seed0.json",
+   "gpu_seconds": 231.6803145390004,
+   "uses": [
+    "Fig. 1 simulation δ=0.25 g=5",
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=5",
+    "Fig. 4c simulation max exponent δ key 0.25 g=5"
+   ],
+   "sha256": "14c35e055777607228b35141ec1ce0633b5f30fd83cbd874ab194f3b0bd37061",
+   "bytes": 82695
+  },
+  "network/map_g5_delta0.5_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g5_h0.5_N4096_seed0.json",
+   "gpu_seconds": 206.02404317603214,
+   "uses": [
+    "Fig. 1 simulation δ=0.5 g=5",
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=5",
+    "Fig. 4c simulation max exponent δ key 0.5 g=5"
+   ],
+   "sha256": "5c0d737aa65499d694dca80a0a976c494e99db1f59c0a9f0f5ab64090c74569a",
+   "bytes": 82628
+  },
+  "network/map_g5_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g5_h1_N4096_seed0.json",
+   "gpu_seconds": 292.1611753949546,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=5"
+   ],
+   "sha256": "e6db49b852d551a1b9c005e618fb1bf58eee8763a8d9ab956797dfe3e49e5a70",
+   "bytes": 81366
+  },
+  "network/map_g6_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g6_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.63552256498951,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=6",
+    "Fig. 4c simulation max exponent δ key 0.25 g=6"
+   ],
+   "sha256": "67efb16c2819e3ada82d023c6e1e785ce8512bdcc761ddba207d0f5c03961617",
+   "bytes": 22000
+  },
+  "network/map_g6_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g6_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 60.23869282298256,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=6",
+    "Fig. 4c simulation max exponent δ key 0.5 g=6"
+   ],
+   "sha256": "cc1107fffca6ab8aa506a546b84eb9e59dcf2ef6290f391265c3b31ce18a06d7",
+   "bytes": 22023
+  },
+  "network/map_g6_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g6_h1_N4096_seed0.json",
+   "gpu_seconds": 196.72331668698462,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=6"
+   ],
+   "sha256": "9c664969befeff0b8892c1a46f8f43694db629245f9e1fcb762ae730e7f651d0",
+   "bytes": 81235
+  },
+  "network/map_g8_delta0.25_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g8_h0.25_N4096_k1024_seed0.json",
+   "gpu_seconds": 66.15729975904105,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.25 g=8",
+    "Fig. 4c simulation max exponent δ key 0.25 g=8"
+   ],
+   "sha256": "b65117de9c573baae60eb370690612999203bf2d9e33d6fc3ab5cdba0c4e3d9a",
+   "bytes": 21974
+  },
+  "network/map_g8_delta0.5_N4096_k1024_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g8_h0.5_N4096_k1024_seed0.json",
+   "gpu_seconds": 60.931120673019905,
+   "uses": [
+    "Fig. 2 simulation D_KY/N, h_KS/N δ=0.5 g=8",
+    "Fig. 4c simulation max exponent δ key 0.5 g=8"
+   ],
+   "sha256": "e3c283b7f3de901d39a5649e95ffed7f79d3e9edd55ad5f70c6d88cfcded0299",
+   "bytes": 21903
+  },
+  "network/map_g8_delta1_N4096_seed0.json": {
+   "kind": "network_lyapunov",
+   "source": "old/results/network/map_g8_h1_N4096_seed0.json",
+   "gpu_seconds": 197.4720352839795,
+   "uses": [
+    "Fig. 4c simulation max exponent δ key 1 g=8"
+   ],
+   "sha256": "e176e4747296357f5a9e3d1d2de46eb9a9c51c90e6fed7cb4e46bd348270d4d4",
+   "bytes": 81165
+  },
+  "participation/pr_flow_g1.25_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g1.25_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=1.25"
+   ],
+   "sha256": "c8b6100d8b064b221302059e2e79eeab024787383b68e7eeffb2ff56c688ae2a",
+   "bytes": 1356
+  },
+  "participation/pr_flow_g1.25_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g1.25_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=1.25"
+   ],
+   "sha256": "63b20bb337e2bf2ce4bf61de84f065b939c27b130b06982cebb447aab13ac980",
+   "bytes": 1356
+  },
+  "participation/pr_flow_g1.5_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g1.5_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=1.5"
+   ],
+   "sha256": "640cbead9dd6ec3ec6f6f65478e6190a52c19c5dc7d72e48b7c91bdb7f9861d2",
+   "bytes": 1351
+  },
+  "participation/pr_flow_g1.5_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g1.5_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=1.5"
+   ],
+   "sha256": "5b5cbd6d55948f9e1e3f6465ac21cd2b463a5241b0ce72162485514363d02cfe",
+   "bytes": 1350
+  },
+  "participation/pr_flow_g10_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g10_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=10"
+   ],
+   "sha256": "f554aa82e3f6fafd2bb6ec9045b46962659681e0ad1a528725e0dd237c504dce",
+   "bytes": 1345
+  },
+  "participation/pr_flow_g10_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g10_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=10"
+   ],
+   "sha256": "bd7b2e3c429262828c8a51745686a4a4aef6bbbf48cf76eecc09d522bfd4ef9f",
+   "bytes": 1341
+  },
+  "participation/pr_flow_g12_rk4dt0.05_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g12_h0.05_N16384_seed0.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=12"
+   ],
+   "sha256": "06878283d010ffe7de2f0c13bf698c2bb8673fc975238a26159c5efb5b18f265",
+   "bytes": 1353
+  },
+  "participation/pr_flow_g12_rk4dt0.05_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g12_h0.05_N16384_seed1.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=12"
+   ],
+   "sha256": "98ecfb48ef719f0de75d6f7173cfa2b35374840feb388bd491f711c17600e45f",
+   "bytes": 1349
+  },
+  "participation/pr_flow_g14_rk4dt0.05_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g14_h0.05_N16384_seed0.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=14"
+   ],
+   "sha256": "5a35173c5354d84c51b21b125beb5362c40d2f2380f10460e54e2878fd98e182",
+   "bytes": 1351
+  },
+  "participation/pr_flow_g14_rk4dt0.05_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g14_h0.05_N16384_seed1.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=14"
+   ],
+   "sha256": "d795e02fd5366147e8eed79d2e1e5c5c7d3aa0c8ce81e3f5acb6127099145f12",
+   "bytes": 1348
+  },
+  "participation/pr_flow_g16_rk4dt0.05_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g16_h0.05_N16384_seed0.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=16"
+   ],
+   "sha256": "9e4aa95f273773d4e2e5482a5a150990c175a15ea4a687e5db36f77d6a9a1eed",
+   "bytes": 1352
+  },
+  "participation/pr_flow_g16_rk4dt0.05_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g16_h0.05_N16384_seed1.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=16"
+   ],
+   "sha256": "7996e02f92b5936ca3bf52af3d6f35df45a892b768482c2f5f9de8fa0c67994d",
+   "bytes": 1349
+  },
+  "participation/pr_flow_g18_rk4dt0.05_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g18_h0.05_N16384_seed0.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=18"
+   ],
+   "sha256": "9326f667c899c81d7159abff11b56efa39ecd640fd9feb0678850c396ff1a4f4",
+   "bytes": 1348
+  },
+  "participation/pr_flow_g18_rk4dt0.05_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g18_h0.05_N16384_seed1.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=18"
+   ],
+   "sha256": "6261be6a11b2341ae049995b6945733daac0d52caee212f8df8c0403d8170cdf",
+   "bytes": 1348
+  },
+  "participation/pr_flow_g2.5_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g2.5_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=2.5"
+   ],
+   "sha256": "e3cd081496c7cbb7b21cfc2361529bca86ac3d0da40d7abc7b4e6dc2e4817d03",
+   "bytes": 1349
+  },
+  "participation/pr_flow_g2.5_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g2.5_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=2.5"
+   ],
+   "sha256": "322ba20675e78970a98c03b85bf92970f9e6027f7392f429b687b8a99204c0df",
+   "bytes": 1348
+  },
+  "participation/pr_flow_g20_rk4dt0.05_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g20_h0.05_N16384_seed0.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=20"
+   ],
+   "sha256": "64d98a429c72c628b1a9aefabee7982d489803596c6dae6d760188f76c0c208c",
+   "bytes": 1346
+  },
+  "participation/pr_flow_g20_rk4dt0.05_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g20_h0.05_N16384_seed1.json",
+   "gpu_seconds": 1562.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=20"
+   ],
+   "sha256": "b5c396117d3bd532ef1557861d46a077647e9a551806565bae5930c98511d56c",
+   "bytes": 1351
+  },
+  "participation/pr_flow_g2_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g2_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=2"
+   ],
+   "sha256": "3d0cf7a614713a4cb39e0fdba30779ee61841cdc1f957a4d372d9dad6d4304f0",
+   "bytes": 1345
+  },
+  "participation/pr_flow_g2_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g2_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=2"
+   ],
+   "sha256": "6f20baff2ba6b705a5867b7287c9f53740603e16a0c16241e2f4245edeeeb412",
+   "bytes": 1347
+  },
+  "participation/pr_flow_g3_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g3_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=3"
+   ],
+   "sha256": "0885d3e38a7e582fafa6940984375e0282922d8f999c97d2c3df45094dc787a9",
+   "bytes": 1345
+  },
+  "participation/pr_flow_g3_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g3_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=3"
+   ],
+   "sha256": "d394a8d6fc45f426323be8dc6106d5d2d05dbf1a9a620dfe17add2e6295c884c",
+   "bytes": 1345
+  },
+  "participation/pr_flow_g4_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g4_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=4"
+   ],
+   "sha256": "7357964631121249377670b7e1c8b665d6417c116e71672fb683fefc44d4520a",
+   "bytes": 1344
+  },
+  "participation/pr_flow_g4_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g4_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=4"
+   ],
+   "sha256": "7eec89adc81d067be2ef927f8021dc79196d1e095595c05811c786857b2017b0",
+   "bytes": 1343
+  },
+  "participation/pr_flow_g5_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g5_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=5"
+   ],
+   "sha256": "5e0f02aeebaeacbff6b9f8c088bb95985caee48c6b80ff86c22f0112cc66c86f",
+   "bytes": 1343
+  },
+  "participation/pr_flow_g5_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g5_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=5"
+   ],
+   "sha256": "0dfae3076793aa5d59b66650e61c4a2d7b12bc7a3dde69f3db2530b623a5925d",
+   "bytes": 1344
+  },
+  "participation/pr_flow_g6_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g6_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=6"
+   ],
+   "sha256": "a59816c394ef43c0d4fc06b15d286b6e480668c21df7364a6ab77de2cf990c2a",
+   "bytes": 1342
+  },
+  "participation/pr_flow_g6_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g6_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=6"
+   ],
+   "sha256": "fad055e0ce8c2b11aaf9580602ce88b313fc1e740c968d7d8249abd1e82a676c",
+   "bytes": 1345
+  },
+  "participation/pr_flow_g8_rk4dt0.1_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g8_h0.1_N16384_seed0.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=8"
+   ],
+   "sha256": "cf9ee5788ab87a3bed5691dcf1b003c0497b1c00c8ba32c0f91c04d8300db221",
+   "bytes": 1341
+  },
+  "participation/pr_flow_g8_rk4dt0.1_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/flow_g8_h0.1_N16384_seed1.json",
+   "gpu_seconds": 781.0,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ→0 g=8"
+   ],
+   "sha256": "fe2936c47071294e6a3a025a8bbdc3dc73b0f57951490ef77bd717ba6ec3976c",
+   "bytes": 1345
+  },
+  "participation/pr_map_g1.25_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.25_h0.25_N16384_seed0.json",
+   "gpu_seconds": 323.17241379310343,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=1.25"
+   ],
+   "sha256": "85d10593a5f395a322fe7c46e7887072f1cb92acb3c89d76d25f6d3757f49a79",
+   "bytes": 1371
+  },
+  "participation/pr_map_g1.25_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.25_h0.25_N16384_seed1.json",
+   "gpu_seconds": 323.17241379310343,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=1.25"
+   ],
+   "sha256": "a6157b6267fa4220304911f50cd9c04592ae1f110cc3026cd71633c97baefd4c",
+   "bytes": 1373
+  },
+  "participation/pr_map_g1.25_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.25_h0.5_N16384_seed0.json",
+   "gpu_seconds": 161.58620689655172,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=1.25"
+   ],
+   "sha256": "baa60885d285d7f7f3e56c42c0b5826f9f86771a1cb62e2e5991d6893a344750",
+   "bytes": 1370
+  },
+  "participation/pr_map_g1.25_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.25_h0.5_N16384_seed1.json",
+   "gpu_seconds": 161.58620689655172,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=1.25"
+   ],
+   "sha256": "29304c7fa1f8d8abc20930b72f3e1a1ca718a738b5474713601710dbfce12481",
+   "bytes": 1370
+  },
+  "participation/pr_map_g1.5_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.5_h0.25_N16384_seed0.json",
+   "gpu_seconds": 157.73891625615764,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=1.5"
+   ],
+   "sha256": "8f08672edaa79735eb7b7debed84a087a69fa5a16ac45729b49bbd09c2d0addc",
+   "bytes": 1363
+  },
+  "participation/pr_map_g1.5_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.5_h0.25_N16384_seed1.json",
+   "gpu_seconds": 157.73891625615764,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=1.5"
+   ],
+   "sha256": "a13e3b3f5217b8970bde7d4708dbc90c590b40ec517cabd134e8ea8d70fb53ce",
+   "bytes": 1365
+  },
+  "participation/pr_map_g1.5_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.5_h0.5_N16384_seed0.json",
+   "gpu_seconds": 78.86945812807882,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=1.5"
+   ],
+   "sha256": "a94ca96e7667529e69885e00472429198f784d548225d0acc2f56aaf1f898528",
+   "bytes": 1363
+  },
+  "participation/pr_map_g1.5_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g1.5_h0.5_N16384_seed1.json",
+   "gpu_seconds": 78.86945812807882,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=1.5"
+   ],
+   "sha256": "d0ea443564be70c616cd618ca5a6d04871171d15415e77911c2766bcfff7a652",
+   "bytes": 1359
+  },
+  "participation/pr_map_g10_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g10_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=10"
+   ],
+   "sha256": "666bc1c2ac6991f60cae91ca62869d822e498393a3908aaace4ac3e9aed875e8",
+   "bytes": 1358
+  },
+  "participation/pr_map_g10_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g10_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=10"
+   ],
+   "sha256": "31c7abdb8284229a62d592bdbab3bade6de939aa6a55d3f05823b6fef869c841",
+   "bytes": 1357
+  },
+  "participation/pr_map_g10_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g10_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=10"
+   ],
+   "sha256": "97db44eb0d737d6fef296c7bae61ed817aa83f07624977966a23c39e3bd62bcd",
+   "bytes": 1351
+  },
+  "participation/pr_map_g10_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g10_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=10"
+   ],
+   "sha256": "bb16dd2250734bbbbe55d4a6a7d308ccf8fe1ec1f9e01d44296aec01a7ac2c7b",
+   "bytes": 1351
+  },
+  "participation/pr_map_g12_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g12_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=12"
+   ],
+   "sha256": "6da2b17d139b430d0d3dbbd4a0933e6765d4383083b814251c346c6a146b984b",
+   "bytes": 1357
+  },
+  "participation/pr_map_g12_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g12_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=12"
+   ],
+   "sha256": "64ea7c3cf913e86f3401181c3f44499e8ec3902c59147fb5c8b999f823f4a2e1",
+   "bytes": 1354
+  },
+  "participation/pr_map_g12_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g12_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=12"
+   ],
+   "sha256": "55098264cd00148ce15b7aae9b40b55ff51666e67f4b9c1e107e5e8610e7c15f",
+   "bytes": 1352
+  },
+  "participation/pr_map_g12_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g12_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=12"
+   ],
+   "sha256": "d19c718caaa058a6b87609366bda158de18f24c28772e00e0cf6b76da2b64e43",
+   "bytes": 1352
+  },
+  "participation/pr_map_g14_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g14_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=14"
+   ],
+   "sha256": "f99005c5502c0c6a8526e9076274fde5527be9bca164afec0be1a9d03fd5460d",
+   "bytes": 1358
+  },
+  "participation/pr_map_g14_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g14_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=14"
+   ],
+   "sha256": "9ffb8cff79c6f0b2e880c9ba2634db9701dbc35fcf0251e8010c0aca8d35549f",
+   "bytes": 1356
+  },
+  "participation/pr_map_g14_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g14_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=14"
+   ],
+   "sha256": "a503445b2c8f1afb8d5b085ec0cbc6fafaa0a57c553242b37f03c25d3e5828fb",
+   "bytes": 1352
+  },
+  "participation/pr_map_g14_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g14_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=14"
+   ],
+   "sha256": "a6fa12e6b8a6b69ccc12388af7d59a94deab0051fee284bceb7390959eda4298",
+   "bytes": 1348
+  },
+  "participation/pr_map_g16_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g16_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=16"
+   ],
+   "sha256": "2fed4c5ce1bc26a135230df724cf4c2ae9efd6134894d074f26c7b4b13cafaf4",
+   "bytes": 1357
+  },
+  "participation/pr_map_g16_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g16_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=16"
+   ],
+   "sha256": "35b8e20a38cf2f3b40930c2b1d761fa313dbb4afa10d5905f1d5d9d135aa9232",
+   "bytes": 1359
+  },
+  "participation/pr_map_g16_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g16_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=16"
+   ],
+   "sha256": "76e4de279f88bfe3c8ddb83b1efbc26f135413f4a5004c2e70ef3e43b77af118",
+   "bytes": 1352
+  },
+  "participation/pr_map_g16_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g16_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=16"
+   ],
+   "sha256": "e84b767fce5c44ac101fe8ad6380f1511572496d365c2a4587974f420cf2989c",
+   "bytes": 1351
+  },
+  "participation/pr_map_g18_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g18_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=18"
+   ],
+   "sha256": "e184e7453a38b3f3fde6b00e5a3417d063cfc8e0cb509766b5d3c07b36451baa",
+   "bytes": 1358
+  },
+  "participation/pr_map_g18_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g18_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=18"
+   ],
+   "sha256": "236d1e44d90d7eeb74ec429969c22ae53dbca465729bea48e0749ddae1f05739",
+   "bytes": 1355
+  },
+  "participation/pr_map_g18_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g18_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=18"
+   ],
+   "sha256": "46f46fcff45675091dcc2909c7be7bcb4409ce51e481b2d216ee96ac06f14849",
+   "bytes": 1353
+  },
+  "participation/pr_map_g18_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g18_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=18"
+   ],
+   "sha256": "e1dc94d10269f8acd2713c03a754567bae8bfbea35b67ae8da374afc09b4034e",
+   "bytes": 1352
+  },
+  "participation/pr_map_g2.5_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2.5_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=2.5"
+   ],
+   "sha256": "0f93ab9873a4c7e02b042aab785c764d85947365a121b9e44176e4b594f5b892",
+   "bytes": 1359
+  },
+  "participation/pr_map_g2.5_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2.5_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=2.5"
+   ],
+   "sha256": "6eae4bf4a86b410319fb424c385757a1106a9e75dbb050f419a736922d23a0c0",
+   "bytes": 1358
+  },
+  "participation/pr_map_g2.5_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2.5_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=2.5"
+   ],
+   "sha256": "7196b166bf5dbd7a7b2e0a24152a8750cd3e85af23b64dc8f13932955368d250",
+   "bytes": 1358
+  },
+  "participation/pr_map_g2.5_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2.5_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=2.5"
+   ],
+   "sha256": "d19d66bd535db184c61ea8fec98aa69c0cb4d5de720c18f64f506389b0fac001",
+   "bytes": 1357
+  },
+  "participation/pr_map_g20_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g20_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=20"
+   ],
+   "sha256": "a79d8b63d662e07d745c0a896fc381aef3b00ba508f6023b821f22d6e35c3fad",
+   "bytes": 1355
+  },
+  "participation/pr_map_g20_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g20_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=20"
+   ],
+   "sha256": "bcbe7f7862355cef49923fde1f683af17fcc474481116023b8bb405e8041ab9b",
+   "bytes": 1357
+  },
+  "participation/pr_map_g20_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g20_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=20"
+   ],
+   "sha256": "c8bdcb47a8d7bc8111c04e59663ad768a268e132a170909ae133718f806713da",
+   "bytes": 1352
+  },
+  "participation/pr_map_g20_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g20_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=20"
+   ],
+   "sha256": "6564ab4abc4bddd73552addbfabdeccf4dafb7606a8bb492c2f25abc4985c0be",
+   "bytes": 1352
+  },
+  "participation/pr_map_g2_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2_h0.25_N16384_seed0.json",
+   "gpu_seconds": 157.73891625615764,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=2"
+   ],
+   "sha256": "7126b71fd7c42fa34dcbd0368a14d041a667a696cd6abe42ebb19c9f001873c1",
+   "bytes": 1360
+  },
+  "participation/pr_map_g2_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2_h0.25_N16384_seed1.json",
+   "gpu_seconds": 157.73891625615764,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=2"
+   ],
+   "sha256": "74f995927ecd19db53bc9f3a3901b6b8c62ca9c8b37c507bf7507c736726b129",
+   "bytes": 1357
+  },
+  "participation/pr_map_g2_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2_h0.5_N16384_seed0.json",
+   "gpu_seconds": 78.86945812807882,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=2"
+   ],
+   "sha256": "71617fb6beb656a4187a2b82c513efa9c85bc1bae848c746115d0578eb72dc10",
+   "bytes": 1358
+  },
+  "participation/pr_map_g2_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g2_h0.5_N16384_seed1.json",
+   "gpu_seconds": 78.86945812807882,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=2"
+   ],
+   "sha256": "9bced2ab0081f7e2c70d32a9f1056f3b4545f7d9aaf6e9dc3b1bf1c382423a5a",
+   "bytes": 1357
+  },
+  "participation/pr_map_g3_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g3_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=3"
+   ],
+   "sha256": "de428641067d2d3ec11b603fc0ea2d87ce499ce619b98621c93c2fea79da0145",
+   "bytes": 1354
+  },
+  "participation/pr_map_g3_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g3_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=3"
+   ],
+   "sha256": "bc274621603a3351766ef57c25df45cdff9034784a68f9cbf5f03d0ee5d2de28",
+   "bytes": 1358
+  },
+  "participation/pr_map_g3_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g3_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=3"
+   ],
+   "sha256": "362e4895c6cb1d199f60f41ca2ce94d73a00105ca4e5f3c5ebe038102370a0ee",
+   "bytes": 1351
+  },
+  "participation/pr_map_g3_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g3_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=3"
+   ],
+   "sha256": "2b85c410454957c06757a433ecd40e0992e82ef2e67f47d1e5914937446681bd",
+   "bytes": 1350
+  },
+  "participation/pr_map_g4_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g4_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=4"
+   ],
+   "sha256": "1b08f8375608fbe64697128349df2842a137877e3b612d1a29143109df737b53",
+   "bytes": 1354
+  },
+  "participation/pr_map_g4_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g4_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=4"
+   ],
+   "sha256": "931c017f97a88be1c71e7c848dc88561cf71f2490cebdb2d86f8fc814e9455c5",
+   "bytes": 1354
+  },
+  "participation/pr_map_g4_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g4_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=4"
+   ],
+   "sha256": "42ad6e0c5e66b83538d1a81d8fa52fba0252b6ed4357551d92ac71d1bd31ee77",
+   "bytes": 1352
+  },
+  "participation/pr_map_g4_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g4_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=4"
+   ],
+   "sha256": "3d33e373112ba27d43defcd5c58bb21af9f29e555ddae70762effd88b850b1be",
+   "bytes": 1351
+  },
+  "participation/pr_map_g5_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g5_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=5"
+   ],
+   "sha256": "23b35ad7a28b93f1b427a382286060dfc245fd4edbed54764b4d3f94585a971f",
+   "bytes": 1354
+  },
+  "participation/pr_map_g5_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g5_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=5"
+   ],
+   "sha256": "054c7d8249e39ba50137d2601f6fd152a33fba301a7a8e08701ea39fad83cc3d",
+   "bytes": 1353
+  },
+  "participation/pr_map_g5_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g5_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=5"
+   ],
+   "sha256": "19105e667bf09d334dddb260d8cdf385e720604b0e226a247cc266c0a909aa2b",
+   "bytes": 1352
+  },
+  "participation/pr_map_g5_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g5_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=5"
+   ],
+   "sha256": "e40927f0bddf384d4f37373b286e6e43ce607957c63666747dac974aa2ff942d",
+   "bytes": 1351
+  },
+  "participation/pr_map_g6_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g6_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=6"
+   ],
+   "sha256": "8e94bcb1539e3d6c9d191071839e0525384b13f9cd6d0245ef129fba631d18aa",
+   "bytes": 1355
+  },
+  "participation/pr_map_g6_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g6_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=6"
+   ],
+   "sha256": "15614b4eff910ccebffe9b8c35ea3c1b0080edf0fb8d7d63c1ad8a773a09c566",
+   "bytes": 1353
+  },
+  "participation/pr_map_g6_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g6_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=6"
+   ],
+   "sha256": "eeaf9ce38b161ce822d2b0a60f7c7b5d7cafba7d36b4663348a588966b48b3cc",
+   "bytes": 1347
+  },
+  "participation/pr_map_g6_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g6_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=6"
+   ],
+   "sha256": "69298adf4da46e51f77ea8b883952fade34408de05c41c0e659afa17a9cb04c4",
+   "bytes": 1350
+  },
+  "participation/pr_map_g8_delta0.25_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g8_h0.25_N16384_seed0.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=8"
+   ],
+   "sha256": "6f8094aa0ca32cbb04656b824bc383c9ba48726b45f6aa0cf4324fee7b81fb55",
+   "bytes": 1354
+  },
+  "participation/pr_map_g8_delta0.25_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g8_h0.25_N16384_seed1.json",
+   "gpu_seconds": 78.1,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.25 g=8"
+   ],
+   "sha256": "a19a9209647b6fbe923d84337d114c0cc212daf8ea10435249ab0adb83770e1b",
+   "bytes": 1353
+  },
+  "participation/pr_map_g8_delta0.5_N16384_seed0.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g8_h0.5_N16384_seed0.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=8"
+   ],
+   "sha256": "5f4dea213b4950270e262ffa36191a7e723620064df1d09d121492a8659876e5",
+   "bytes": 1351
+  },
+  "participation/pr_map_g8_delta0.5_N16384_seed1.json": {
+   "kind": "participation_simulation",
+   "source": "results/participation/N16384/map_g8_h0.5_N16384_seed1.json",
+   "gpu_seconds": 39.05,
+   "uses": [
+    "Fig. 2 simulation PR^x/N, PR^phi/N δ=0.5 g=8"
+   ],
+   "sha256": "b44115659e79e2eedd555d09d3d6ee8fe0a1607279e5c357c60a73ba8c87d2a9",
+   "bytes": 1347
+  },
+  "participation_theory/pr_theory_delta0.25.json": {
+   "kind": "participation_theory",
+   "source": "results/participation_theory/pr_h0.25_dz02.json",
+   "gpu_seconds": 82.58997469689348,
+   "uses": [
+    "Fig. 2 theory PR^x/N, PR^phi/N (dense g) δ=0.25"
+   ],
+   "sha256": "11ebf6b53358540e879bcb984f9fd137d6350c2c404b0d558699d6329ed42d51",
+   "bytes": 11174
+  },
+  "participation_theory/pr_theory_delta0.5.json": {
+   "kind": "participation_theory",
+   "source": "results/participation_theory/pr_h0.5_dz02.json",
+   "gpu_seconds": 42.63060103103635,
+   "uses": [
+    "Fig. 2 theory PR^x/N, PR^phi/N (dense g) δ=0.5"
+   ],
+   "sha256": "7115c96266feaff7c85fc2b45842b40a64953f7e161e0c1dfa7b58cbe1a84571",
+   "bytes": 11179
+  },
+  "participation_theory/pr_theory_delta0.json": {
+   "kind": "participation_theory",
+   "source": "results/participation_theory/pr_flow_dz02.json",
+   "gpu_seconds": 779.9036425868981,
+   "uses": [
+    "Fig. 2 theory PR^x/N, PR^phi/N (dense g) δ→0"
+   ],
+   "sha256": "57c2de157222b535fd368d49d52521fece24f2160016d97664b8dd5b18092529",
+   "bytes": 11220
+  },
+  "theory/theory_delta0.05_g3_T32_m640_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.05_T32_m640_S1024_tw2_seed0_sobol_warm.json",
+   "gpu_seconds": 28829.15220131405,
+   "uses": [
+    "Fig. 1 theory δ=0.05 g=3"
+   ],
+   "sha256": "44f62d6651fd742b6119f20d9c23e928fd94801a66467b64600a652d4497ec98",
+   "bytes": 75504
+  },
+  "theory/theory_delta0.05_g5_T32_m640_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.05_T32_m640_S1024_tw2_seed0_sobol_warm.json",
+   "gpu_seconds": 5751.5948684330215,
+   "uses": [
+    "Fig. 1 theory δ=0.05 g=5"
+   ],
+   "sha256": "696dd4befb809f517234c56d76a93a807875676e071a1bdc55f3e13bf38ddfd6",
+   "bytes": 78972
+  },
+  "theory/theory_delta0.1_g3_T32_m320_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.1_T32_m320_S2048_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 3839.3049395749695,
+   "uses": [
+    "Fig. 1 theory δ=0.1 g=3"
+   ],
+   "sha256": "cdf440501476595515b15b30edd3a4bf7b0db65480b9e35ea1b4ddddea5191f2",
+   "bytes": 117240
+  },
+  "theory/theory_delta0.1_g5_T32_m320_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.1_T32_m320_S2048_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 3206.92564954696,
+   "uses": [
+    "Fig. 1 theory δ=0.1 g=5"
+   ],
+   "sha256": "8cd938f5da88552d221c0810d4c582751b970c6575e4d110b009c31e914cce58",
+   "bytes": 122508
+  },
+  "theory/theory_delta0.25_g1.25_T64_m256_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.25_T64_m256_S4096_tw0_top_seed0_gsweep.json",
+   "gpu_seconds": 2335.9904120330175,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.25"
+   ],
+   "sha256": "82c9bcadc53b915cff2e454a4987bd449fe0080bfd93ad151c14a4d2f2e6be4f",
+   "bytes": 58105
+  },
+  "theory/theory_delta0.25_g1.25_T64_m256_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.25_T64_m256_S4096_tw0_top_seed1_gsweep.json",
+   "gpu_seconds": 2355.232759673003,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.25"
+   ],
+   "sha256": "d46767fdd2d08976fbf02da38fc17ab9d7adf4296ba3831a994f3a5dcf2d2c34",
+   "bytes": 58099
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 639.0928597869934,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "fbdda54d4f4e325fadd81505df2dae0c8c4c57cc29bde254afae3dd3e0fef89a",
+   "bytes": 30477
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 648.5950340660056,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "d4a33bde76eb541d876d6e21947ffc09e313dec18c78f2fcddca2f7c79db77f6",
+   "bytes": 30463
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 637.5515804850147,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "8b50a7d5fa4371042b52765975a1772307a583e69eb7e75b31437337fd26483e",
+   "bytes": 30496
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 647.21980824403,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "6608a841969b136d9e8ed25d5563899d3d3924d7c2b41affc9ccab1a848fe3d4",
+   "bytes": 30482
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 638.5335585619905,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "fe5382dd1cce5b5b9d96b407300ff1dffcef0f191600df6eb0699e70768b1b43",
+   "bytes": 30492
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 645.1846381959622,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "bbbc98d36c2e765a9f369015fafe8dcdd8e122d0fe682d8c185bfd5aa3eb6b5c",
+   "bytes": 30502
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 649.2023591100005,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "1fa33a3f2a49b363d34da559ff966f974853e995dc136f7337b85bbc49b843b8",
+   "bytes": 30523
+  },
+  "theory/theory_delta0.25_g1.5_T64_m256_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.25_T64_m256_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 646.3896600439912,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=1.5"
+   ],
+   "sha256": "6377a0b02c0125fe1b454a34c019057160e60d5c779f4ffc909b1cae52251830",
+   "bytes": 30477
+  },
+  "theory/theory_delta0.25_g10_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g10_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2700.9895758609928,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=10"
+   ],
+   "sha256": "b8acfba09d4a88ba744d328141a672a0ffc25a0c78e628a8996f66070abf0c25",
+   "bytes": 97861
+  },
+  "theory/theory_delta0.25_g10_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g10_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2685.321691175981,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=10"
+   ],
+   "sha256": "65f96d083939a927cbb3ceab785a88a4d9d5a24065c1a14f935ef5364c327a23",
+   "bytes": 97950
+  },
+  "theory/theory_delta0.25_g12_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2667.967636301997,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=12"
+   ],
+   "sha256": "3dcc63bd3d9315dfc523f2f2be6aa431d00ff5f171905239bcec08d9e44af824",
+   "bytes": 97844
+  },
+  "theory/theory_delta0.25_g12_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2622.011006851011,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=12"
+   ],
+   "sha256": "d2818293ea06cc930a6ac2a7573ef7014930f6f1b8f670658b5faa94e0548517",
+   "bytes": 97965
+  },
+  "theory/theory_delta0.25_g14_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2607.0620878560003,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=14"
+   ],
+   "sha256": "53c5a5f16205ad5ad9f4786830f75d81343451c4515026a679243ed5d440f177",
+   "bytes": 97848
+  },
+  "theory/theory_delta0.25_g14_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2590.5765782719827,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=14"
+   ],
+   "sha256": "4e249b5506c8188cb162545a3489c4e7117700b532f03f02f4187b0f16a0e511",
+   "bytes": 97875
+  },
+  "theory/theory_delta0.25_g16_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2565.5283573780034,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=16"
+   ],
+   "sha256": "07eaf6aa106a4597fb45d6530f3f166594879a87620b1434cdd45b79239850dd",
+   "bytes": 97914
+  },
+  "theory/theory_delta0.25_g16_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2563.7764691449993,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=16"
+   ],
+   "sha256": "ec3798f03dbb8efa7e0271eec576b6d39315c3dbc49fc5baf4698e66cc30a0da",
+   "bytes": 97865
+  },
+  "theory/theory_delta0.25_g18_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2489.372389502998,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=18"
+   ],
+   "sha256": "d9cddc511ea5cbc08a4029c605015c04b22644204b69443614df335cdac28242",
+   "bytes": 97807
+  },
+  "theory/theory_delta0.25_g18_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2511.728663907008,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=18"
+   ],
+   "sha256": "557f581707f4ba9a6e27b7b2b4e3511581e5c827ff034294bb79c209eb543f7d",
+   "bytes": 97848
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 97.63805086101638,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "c96e9cac526811a57ebb0e71856bf7509fd9a4ecd7cc51bf922c7b8bb5ba8941",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 96.90590727201197,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "90506daa016e085d1d2ba354e963d0eaa3cd925284658bf3eab496cb38544abd",
+   "bytes": 30511
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 96.91031344200019,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "8be3638c346ce4c09a3c0c27b232b7d2c79ee7bcc421779466b7922592bf5227",
+   "bytes": 30479
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 96.92478929099161,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "e7a31e68eb4aa4e52bcd551adaa188a7400c308c890d45a7e76953f5e3085ae4",
+   "bytes": 30516
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 97.24379700701684,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "b014447f21b92873f1468eff64a9433401bf574bb62c8424218e61c3f59f7982",
+   "bytes": 30470
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 97.13932387001114,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "75f515dc11113a35806851ad8b6ebbb6fdc8ca43bf742cf58e163c9dff23e9c9",
+   "bytes": 30484
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 96.39996226102812,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "c7f817f3dec4c5e6792c47a5a0c316837690e8f5bd64ee061da32c0dbc797b45",
+   "bytes": 30490
+  },
+  "theory/theory_delta0.25_g2.5_T32_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.25_T32_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 96.65077762200963,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2.5"
+   ],
+   "sha256": "352d7fcaea00b146182fc36058923b8d8e2aa9be107d258882ed3ab21661b6e4",
+   "bytes": 30489
+  },
+  "theory/theory_delta0.25_g20_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.25_T64_m256_S4096_tw4_upper_seed0_base.json",
+   "gpu_seconds": 2474.316079800017,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=20"
+   ],
+   "sha256": "a401fdbf714ec2bbe34d87f94ebdf29ce36185f5e3c314c1866017db6c284d63",
+   "bytes": 97745
+  },
+  "theory/theory_delta0.25_g20_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.25_T64_m256_S4096_tw4_upper_seed1_base.json",
+   "gpu_seconds": 2471.61171672598,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=20"
+   ],
+   "sha256": "6185e0baa42115c38c2e88a81f6a43e1536a353c2cfc99363bc082221c5604cd",
+   "bytes": 98017
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 465.34928864898393,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "1d0b74122c0c8649ab0b8ad967e543d6d258cbd47b98363d42457a29f221684e",
+   "bytes": 30504
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 461.61379511799896,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "c83c720cf726a8f808d808798aa72763d4c586bd56fe1b1111e65322ac8168a8",
+   "bytes": 30502
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 459.7663959959755,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "09d3b27fafea701cb57aa0a8844b374be8a2d25df4f9d62d1997e7c895e71f89",
+   "bytes": 30493
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 465.493715538003,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "de2e6e2fccc59aacf745a4ea8159702139c557d25142eacbe73436f2c55f3dc7",
+   "bytes": 30512
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 461.7283679100219,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "9f2972412761ff59e99f580db48a6b207995877d52280a850207d762eb19da16",
+   "bytes": 30472
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 466.5328149229754,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "539ec50bcba8f13e6d5cf57836730c5e6c30225809ca16ac2776eac2408f34f6",
+   "bytes": 30473
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 460.78193612897303,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "7544ecb43bea42e64caab7b09dcca7b93540365c39c0796bfb9cebb5b3e74155",
+   "bytes": 30467
+  },
+  "theory/theory_delta0.25_g2_T64_m256_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.25_T64_m256_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 458.89072744897567,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=2"
+   ],
+   "sha256": "8e5debbd12be738b876b18ab300605e29824fb45f340997f8e560dae27cef746",
+   "bytes": 30481
+  },
+  "theory/theory_delta0.25_g3_T32_m128_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.25_T32_m128_S4096_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 963.1864774600253,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=3"
+   ],
+   "sha256": "3e30d42ee874dc5142a75b58ddf75c88f8be41a1593fbb0e923710bd1849b0ea",
+   "bytes": 122160
+  },
+  "theory/theory_delta0.25_g3_T32_m128_full_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.25_T32_m128_S4096_tw4_seed1_sobol_warm.json",
+   "gpu_seconds": 973.355594277964,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=3"
+   ],
+   "sha256": "f4d9996d92dd6bfdc4b9caa405be28cde32c8dffaa138cd034eb12e4a46595ce",
+   "bytes": 122157
+  },
+  "theory/theory_delta0.25_g3_T32_m128_full_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.25_T32_m128_S4096_tw4_seed2_sobol_warm.json",
+   "gpu_seconds": 948.8603757070377,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=3"
+   ],
+   "sha256": "b5384dcb9ed04d181872e5676543499d8ca0241629f23e944308dcad5e0638f6",
+   "bytes": 122096
+  },
+  "theory/theory_delta0.25_g3_T32_m128_full_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.25_T32_m128_S4096_tw4_seed3_sobol_warm.json",
+   "gpu_seconds": 972.2168483159621,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=3"
+   ],
+   "sha256": "96521d67c22a394599698a2f9b8a188140a4a228ac6dd47a403dd933ea1de079",
+   "bytes": 122249
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.08977850200608,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "d13d6d0c46fa75b28a09ef4cf7c127060480b1be8f1236b2428887b466ba6d60",
+   "bytes": 30480
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.66235520504415,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "0a5555caf551583ddf378b1454adabc0e844f6e88af436ae7d5050025da045ee",
+   "bytes": 30461
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 88.78466128295986,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "6f3018aa67534ff33796ce6335fffca6f2c201306f003b2de156aa4303b65ec7",
+   "bytes": 30470
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.3065949070151,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "39f0958a15e201ee3fa743ca6e23bba8a27d9dee9187ec7c591eb28b7edec186",
+   "bytes": 30464
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.2620899489848,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "0981ef781de119c6bf8018857f20cc59759af17487a9ca2196933ec803f536e0",
+   "bytes": 30479
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 88.7031276350026,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "04a4fb65715e6ee73f5729b6f4a9bbcab861211ad0d17ebb7db715ba2d475725",
+   "bytes": 30452
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.1397067150101,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "e5393a81abc47ffd8a7a1e2efa363c0e46a1411ee245b5ad1db4f79eaf59184e",
+   "bytes": 30485
+  },
+  "theory/theory_delta0.25_g3_T32_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.25_T32_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 89.09032783895964,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=3"
+   ],
+   "sha256": "98e45483e5d71dc113461f3ef26b1a060f402d7e7f82a457a2cae2e7c52a9ae7",
+   "bytes": 30494
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.15319957502652,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "2032f2a5e1be05a823a4a5fb35276b625fb15a89fb877546b5e78168f6a41a9a",
+   "bytes": 30473
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.1795769019518,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "45ee105e7dd7737bc94b2e9d725c01ac572411bab1ffb5db96789c6b6b79eafc",
+   "bytes": 30493
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.09536924801068,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "1ff084445e59b34a81b969b2ff31a9869ebc93250e26003182c2600b2e941a03",
+   "bytes": 30457
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 80.9171350459801,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "1ff7051ee5a70127fd6807cfabe1b20c68673032bbd56cee42b003ec8c95a77a",
+   "bytes": 30473
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.34639929700643,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "b6ae2e9ec4db123f9e7fe5f4015efb34e715b54036c0aa8c45bcd284459a9a78",
+   "bytes": 30479
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.39101029402809,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "354c254d9ba69c9966037bf10a0248bde8ccd91ed738e074a4516c41fbc75ce9",
+   "bytes": 30485
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 80.83512989297742,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "a582cf2915af25315fcdfcabd10bc0d8ed1b2b1ff078979188b8e728c64800b6",
+   "bytes": 30497
+  },
+  "theory/theory_delta0.25_g4_T32_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.25_T32_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 81.13077473995509,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=4"
+   ],
+   "sha256": "9978857e5f0fcf7a9949bdcb5e733041de866e106191b47740b13e3ff0bc51bf",
+   "bytes": 30485
+  },
+  "theory/theory_delta0.25_g5_T32_m128_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.25_T32_m128_S4096_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 815.155873162963,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=5"
+   ],
+   "sha256": "dcfcb4ba28ed78375bbd8721b1412be46571bd0e17d9ab1bf2ba942e1c75d820",
+   "bytes": 127521
+  },
+  "theory/theory_delta0.25_g5_T32_m128_full_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.25_T32_m128_S4096_tw4_seed1_sobol_warm.json",
+   "gpu_seconds": 806.4816435990506,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=5"
+   ],
+   "sha256": "6a03b1e1851f02320f406425542e802d7f4bd3051ad6409671a90837af6d514b",
+   "bytes": 127627
+  },
+  "theory/theory_delta0.25_g5_T32_m128_full_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.25_T32_m128_S4096_tw4_seed2_sobol_warm.json",
+   "gpu_seconds": 810.7255345119629,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=5"
+   ],
+   "sha256": "2cdcc1736db2f9895b2d0139c1cb4b9ad68ea18920c9f012e3a9ac1715980a54",
+   "bytes": 127576
+  },
+  "theory/theory_delta0.25_g5_T32_m128_full_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.25_T32_m128_S4096_tw4_seed3_sobol_warm.json",
+   "gpu_seconds": 791.5311263079639,
+   "uses": [
+    "Fig. 1 theory δ=0.25 g=5"
+   ],
+   "sha256": "6bc5cf730d886995bf32266309b189c161bf64de85addf638d1a65d5982e24dd",
+   "bytes": 127579
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 77.26323174900608,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "51e4615c633f8deab5bca007106444a87356f4706dc002a810322c794a55954b",
+   "bytes": 30478
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 76.62746296497062,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "57970530894c670f37af1feb2bc9aafe4e7294ab208bb6be021177832335246a",
+   "bytes": 30454
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 76.80885917699197,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "57f6561d20c21efbca68fc45609556d2ea3ae3814e654d9ce17f839c982295b2",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 76.0085490240017,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "1fb5d52cca73eaed1cb446b27e6516af7028649b2cc6edefd504b4c5fda183d7",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 77.30261968600098,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "15828275ddaa8cbdcbe6811d66a3fc2d9ec77390c613a3e54050f6d85300a543",
+   "bytes": 30451
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 77.553227522003,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "525f9ff1d348472166ac31d50e9e6a45fa177fcc196999f119e23f1cfe333435",
+   "bytes": 30484
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 76.84195940295467,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "918803e00f312257c56cfca3fcbb586398912740d701377bf69b425af93eecdb",
+   "bytes": 30467
+  },
+  "theory/theory_delta0.25_g5_T32_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.25_T32_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 77.01391513796989,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=5"
+   ],
+   "sha256": "879041fd29a63f5ae0eb46e9e5a6f490571c92367d8196eb111b51a9d6043595",
+   "bytes": 30445
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 74.41254902700894,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "76c1e319c76965174d4cfd4e24a624fc68eb513420f36f38c84307e02e504647",
+   "bytes": 30451
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.81189526699018,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "6f4bc5ef95aa66dca5cd2a17e7290c84d3fc14047e72e148035ef7d61a18ffc3",
+   "bytes": 30442
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.73041371302679,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "fad695f7e93b571d6fb0e26e27aa8ebe0e0a451ef8687739d2442adc118ef3ee",
+   "bytes": 30437
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.89266352501,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "cb291285fb528473f985dc62e2f41f318780bc7a0833544fa5d71a6fbf0df82b",
+   "bytes": 30444
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.80985887401039,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "6b157517e5776e6bc5ae80f1390163a40b0e38b80a210ac7b50cf62deea6587a",
+   "bytes": 30453
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.78001327399397,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "5c23dea5b3398b068751806ca26d0e4e65d37c4876657ee3ade7315095fc9179",
+   "bytes": 30481
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 73.83653646998573,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "5a7af50c77a5b6c9797c2779261b8b361c6942589995cb8c8ebcfb4ddc47f063",
+   "bytes": 30423
+  },
+  "theory/theory_delta0.25_g6_T32_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.25_T32_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 74.0976685360074,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=6"
+   ],
+   "sha256": "c5d24f405e59c5fdf7db8183ebcba7a04f7f12aad76af85a46d8fab42ea7e1e0",
+   "bytes": 30444
+  },
+  "theory/theory_delta0.25_g8_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g8_h0.25_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 2783.1898664229957,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=8"
+   ],
+   "sha256": "ab02d4472e6bded1263d551e4276588f0b56a45d53d280a634c9fc9d649790cb",
+   "bytes": 97898
+  },
+  "theory/theory_delta0.25_g8_T64_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g8_h0.25_T64_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 2783.9053233930026,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.25 g=8"
+   ],
+   "sha256": "97b4e2029069cae7a21a101c784a6f4221269c3ff74931bddc1d20052980c977",
+   "bytes": 97958
+  },
+  "theory/theory_delta0.5_g1.25_T64_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.5_T64_m128_S4096_tw0_top_seed0_gsweep.json",
+   "gpu_seconds": 524.1220917040191,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.25"
+   ],
+   "sha256": "91404f02c83f628cb464ee541877020c6acd261182069781452840b517b31d9d",
+   "bytes": 58066
+  },
+  "theory/theory_delta0.5_g1.25_T64_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.5_T64_m128_S4096_tw0_top_seed1_gsweep.json",
+   "gpu_seconds": 528.163443847996,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.25"
+   ],
+   "sha256": "f3b223cae70aa5400b4500c11ca5078557528299f5bc5b9c79626ae1ebf9d2df",
+   "bytes": 58098
+  },
+  "theory/theory_delta0.5_g1.25_T64_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.5_T64_m128_S4096_tw0_top_seed2_gsweep.json",
+   "gpu_seconds": 522.8117068069987,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.25"
+   ],
+   "sha256": "b76181e00726a46abdc0d6a63380ea7cc3864fb975f5753640db869141960488",
+   "bytes": 58072
+  },
+  "theory/theory_delta0.5_g1.25_T64_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g1.25_h0.5_T64_m128_S4096_tw0_top_seed3_gsweep.json",
+   "gpu_seconds": 528.37872999502,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.25"
+   ],
+   "sha256": "61bbc3b445fc1f8ea663689f567a436921a78af3fe0596384f14cd1484079fb4",
+   "bytes": 58087
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 159.5799918609555,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "3f1e62a4fbaf01adde91892987548cd224d391be9ccedf861124f6fec5152176",
+   "bytes": 30444
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 160.62600988097256,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "11773511f5692600833f76d63e24a2d0dc3d528a262ad6e92545ee671993fd05",
+   "bytes": 30419
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 161.13829357200302,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "2e96086d1c62b7d7e436afc85ba0abc7fbc966a12306930efdf0a8a90b589c3b",
+   "bytes": 30457
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 160.23682729998836,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "9c9abcff6aba467a61eedf0599d1276d55fcb0bfbe8b5050e6bcde626e78c5e7",
+   "bytes": 30441
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 189.9230667439988,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "1ae8fd48883131e8acc71a784e7b5f1ace6db1faf2f351804b86e0aa9d9e0737",
+   "bytes": 30449
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 159.67724427505163,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "57e616e8edcf7b46180d7e4d2defc93adde1da9e59fa1e8f658aa803299c79b6",
+   "bytes": 30476
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 159.770382341987,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "d091e466d0731fa5b91ecceeb8dfff6055109a0ed7983259a319e6e224082eba",
+   "bytes": 30471
+  },
+  "theory/theory_delta0.5_g1.5_T64_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g1.5_h0.5_T64_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 159.96515045600245,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=1.5"
+   ],
+   "sha256": "a1cd90e7a7a285269b28d43976c85b5faaf70ad7e85dac6d6fee75a22be51560",
+   "bytes": 30437
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 48.760736224998254,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "92be35c8ce66082506481cdf0f62f72d58f8ac31a90e3db48e2467e3c0b90ea6",
+   "bytes": 30322
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.58947884099325,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "39920a550b908a90c81ccfe07d526a9a2ef9e16b0c73b7d303d6e8b965105b02",
+   "bytes": 30313
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.7291456029634,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "bbc8ae1f656ad16748a71de0efd1cedd08801115b922ef00d2acf36ceca224d1",
+   "bytes": 30331
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.457088406954426,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "9dfad8a273177add133f59584ae85204db848169f366f198abfbfa2fd079a200",
+   "bytes": 30311
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.64535462699132,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "b2ed35704fdf5c6a90b4922e28dafbf9eae82ac9233602c35005ee060980b061",
+   "bytes": 30299
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.3643787149922,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "502944fb31bbf92cf575c5f7cca1d0262cde66331f8ebe34b6275806cf77cfc3",
+   "bytes": 30292
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.419314514030702,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "c3b0bfb8fed7404cf167613c4ca97d0f2914351033d8b0649670b198408440bc",
+   "bytes": 30255
+  },
+  "theory/theory_delta0.5_g10_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g10_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 18.41861756402068,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=10"
+   ],
+   "sha256": "b72944ce47f09f5bd429331cf9b511dbd6048de7ee0bdf46a3500ada16a8628d",
+   "bytes": 30280
+  },
+  "theory/theory_delta0.5_g12_T64_m128_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.5_T64_m128_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 531.5915248490055,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=12"
+   ],
+   "sha256": "05ff4f62ce1cb6829188ed3f7e659e1b26386b171ba2db19aa4bc3a30bf89686",
+   "bytes": 107937
+  },
+  "theory/theory_delta0.5_g12_T64_m128_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.5_T64_m128_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 536.9559814099921,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=12"
+   ],
+   "sha256": "60047db3b8d60e26a9ab1009ef246d7cd4ca61c857f17adacdb55fe517224ae2",
+   "bytes": 107894
+  },
+  "theory/theory_delta0.5_g12_T64_m128_upper_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.5_T64_m128_S4096_tw4_upper_seed2_gsweep.json",
+   "gpu_seconds": 537.3745765899948,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=12"
+   ],
+   "sha256": "ff117c5a8e512a55e1fe48ea1b11b554dc72e58cb14e01a21359a3f94d90f5fe",
+   "bytes": 107984
+  },
+  "theory/theory_delta0.5_g12_T64_m128_upper_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g12_h0.5_T64_m128_S4096_tw4_upper_seed3_gsweep.json",
+   "gpu_seconds": 538.2834472919931,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=12"
+   ],
+   "sha256": "5f287a255e1460e7eab6986c0dc5461f72710e0ce453bfa805b531aacbe3591d",
+   "bytes": 107972
+  },
+  "theory/theory_delta0.5_g14_T64_m128_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.5_T64_m128_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 518.8063541400188,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=14"
+   ],
+   "sha256": "d174ef32f4b7353d1be82f9e4e17cfc12c48fa230a587a0d5f5faa120b4bba6e",
+   "bytes": 107895
+  },
+  "theory/theory_delta0.5_g14_T64_m128_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.5_T64_m128_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 518.2184719450015,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=14"
+   ],
+   "sha256": "63a848982631c93271fd8c95a2f99679e5d508f73375aa2dfb8e4ab9f0969a8a",
+   "bytes": 108008
+  },
+  "theory/theory_delta0.5_g14_T64_m128_upper_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.5_T64_m128_S4096_tw4_upper_seed2_gsweep.json",
+   "gpu_seconds": 516.6659250719822,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=14"
+   ],
+   "sha256": "c88e4e2f8945d34da36f5dd517e4efe86c1f1ff1579b5127a5ad39027dc49393",
+   "bytes": 107931
+  },
+  "theory/theory_delta0.5_g14_T64_m128_upper_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g14_h0.5_T64_m128_S4096_tw4_upper_seed3_gsweep.json",
+   "gpu_seconds": 519.5886429439997,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=14"
+   ],
+   "sha256": "d5de19fcc7f9e74c8b646614d63631610ecda288fc517fe080fdf6b1ffede797",
+   "bytes": 107983
+  },
+  "theory/theory_delta0.5_g16_T64_m128_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.5_T64_m128_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 503.3974816359987,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=16"
+   ],
+   "sha256": "d65d556a1dea71fad68eac666b0405c63065abf6222881a5b83999f540717cf9",
+   "bytes": 108136
+  },
+  "theory/theory_delta0.5_g16_T64_m128_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.5_T64_m128_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 505.28005009298795,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=16"
+   ],
+   "sha256": "969fa46102521b2640fdc1a473bca8338a2fab1a44412e38dd55bf93a38d841a",
+   "bytes": 108103
+  },
+  "theory/theory_delta0.5_g16_T64_m128_upper_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.5_T64_m128_S4096_tw4_upper_seed2_gsweep.json",
+   "gpu_seconds": 497.43133526699967,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=16"
+   ],
+   "sha256": "1bc97c62c6a70df35a48d614054d63f8ac7716e2a5e0d6d20ccb322be3b02651",
+   "bytes": 108052
+  },
+  "theory/theory_delta0.5_g16_T64_m128_upper_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g16_h0.5_T64_m128_S4096_tw4_upper_seed3_gsweep.json",
+   "gpu_seconds": 502.3235595160222,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=16"
+   ],
+   "sha256": "667654f443e1fd246cff28dd9e2162e3add2de81a565a33a920557778446a893",
+   "bytes": 107898
+  },
+  "theory/theory_delta0.5_g18_T64_m128_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.5_T64_m128_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 490.2037072889798,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=18"
+   ],
+   "sha256": "036dea12f5e838ecb1af22296f901a4b3b7bf1b63117ec74d7cb7915801c931f",
+   "bytes": 107975
+  },
+  "theory/theory_delta0.5_g18_T64_m128_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.5_T64_m128_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 491.1216273989994,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=18"
+   ],
+   "sha256": "e6f8a2fd4665ffbef76c707551cd0a342188c1901ac32139c21fc8b4fcc99057",
+   "bytes": 108024
+  },
+  "theory/theory_delta0.5_g18_T64_m128_upper_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.5_T64_m128_S4096_tw4_upper_seed2_gsweep.json",
+   "gpu_seconds": 487.0151202569832,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=18"
+   ],
+   "sha256": "cd67a3854c64b8b9b5c8f2436f30c407be72854e5083cdc71f87fcc3b3800450",
+   "bytes": 107966
+  },
+  "theory/theory_delta0.5_g18_T64_m128_upper_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/disc_g18_h0.5_T64_m128_S4096_tw4_upper_seed3_gsweep.json",
+   "gpu_seconds": 492.95076310797594,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=18"
+   ],
+   "sha256": "5635a1606bc44c4d1e8d5d1f94e952aef3c40db113c75bf1ff39ca599afd7e8f",
+   "bytes": 108099
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.795103451004252,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "4507810ab4c80efd8475de1e5f7e20ec6ba82aa18be957aea5b2e786f50449d7",
+   "bytes": 30458
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.573237738979515,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "fea10020a979e6aa965925819a01167252a0224c7310c3da233ac8349ab165a1",
+   "bytes": 30438
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.736483874032274,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "ec6c4f2adc3cc749deaec5e1ebc219daa63a99697e1af5ae67f0752d6e0a056b",
+   "bytes": 30430
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.752073743962683,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "2777f5cf8c8484799da926a0acba702b9d12af2028333488d04292ca5b22b3ea",
+   "bytes": 30396
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.61094935797155,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "35ce04039542a4df9acba85a012dfd92a6fe058b60a133c696a25dcea37290c3",
+   "bytes": 30446
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.47730029298691,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "9cf7c50283d5b2be4e81a2b11ea853359c0a7d87e925d4f6200a86f7b5b9e3d5",
+   "bytes": 30426
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.534984903992154,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "bfdba2ddfc15902e203f1c290b1d46bd7ac20c57308c89bd730077609837f3f0",
+   "bytes": 30438
+  },
+  "theory/theory_delta0.5_g2.5_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2.5_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 27.7025168989785,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2.5"
+   ],
+   "sha256": "5a7d19252ad2544d66c950f4c6899a3608c7bf7bfd66a4500204ca3398b41aad",
+   "bytes": 30460
+  },
+  "theory/theory_delta0.5_g20_T64_m128_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.5_T64_m128_S4096_tw4_upper_seed0_base.json",
+   "gpu_seconds": 475.36276721200556,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=20"
+   ],
+   "sha256": "f2001b60c8bee816d95cdcd12e211f7206505ac2faffa6ae2da36647ed829964",
+   "bytes": 107957
+  },
+  "theory/theory_delta0.5_g20_T64_m128_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.5_T64_m128_S4096_tw4_upper_seed1_base.json",
+   "gpu_seconds": 479.5511602440092,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=20"
+   ],
+   "sha256": "24490271d161b54c4839aa8ff344b8046e30e8668c745b5a15dcb430b81b8761",
+   "bytes": 107872
+  },
+  "theory/theory_delta0.5_g20_T64_m128_upper_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.5_T64_m128_S4096_tw4_upper_seed2_base.json",
+   "gpu_seconds": 474.97485505000805,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=20"
+   ],
+   "sha256": "7838af07d4b24daa5f168365a4cafe631dfe3a1f557d671f8c2906ad71f3ba2c",
+   "bytes": 108043
+  },
+  "theory/theory_delta0.5_g20_T64_m128_upper_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/convergence_large_g/disc_g20_h0.5_T64_m128_S4096_tw4_upper_seed3_base.json",
+   "gpu_seconds": 481.89172443602,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=20"
+   ],
+   "sha256": "96601674de76a0184f2575edfa27723de4e9f850a9e7f85e6cb22431ac94636a",
+   "bytes": 107998
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 112.33652670501033,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "cb16fc5ef976c31ddd6b97f5f0939240d3d36c0919dd74e4269a59f751d15df5",
+   "bytes": 30426
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 113.07480617298279,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "05b5fca16f06032386be20ef1cc1400eea5af013b9ca5fbe6e14ea4bac43423d",
+   "bytes": 30438
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 112.31155362800928,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "60a73445e44c1bc936ab3fad794b3d7064f62d3da95488cc20cfc5354ec3bd74",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 111.72382866695989,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "5f5bf18b1abe533b46e0c74ce65c8433bbba10b5c97d80d8caa49769c89c1e58",
+   "bytes": 30464
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 113.4139166289824,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "e952340a958bd1b134e9834d5adcb95dfd7b9de6627b7bc259db18200287f872",
+   "bytes": 30444
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 112.72204291902017,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "62654bec24178dd1804f76c3fb8f8a71285367c64995ec80a93f3ce4e49e9411",
+   "bytes": 30463
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 112.86767511896323,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "468a48d2e6647a0e3112268a8cd13dee87959d75d4cfb3b704d2b28365b2b1ee",
+   "bytes": 30477
+  },
+  "theory/theory_delta0.5_g2_T64_m128_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g2_h0.5_T64_m128_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 111.74502574198414,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=2"
+   ],
+   "sha256": "4d704f2b5e7a0f2f439f520d944076b81546f61fd5bee5e4ab579bf250887e87",
+   "bytes": 30450
+  },
+  "theory/theory_delta0.5_g3_T32_m64_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.5_T32_m64_S4096_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 310.65954939299263,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=3"
+   ],
+   "sha256": "a42ab9b668826797a27b61674107a6dd4a17dcb01803e2a7ff9d9fe54c716691",
+   "bytes": 132444
+  },
+  "theory/theory_delta0.5_g3_T32_m64_full_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.5_T32_m64_S4096_tw4_seed1_sobol_warm.json",
+   "gpu_seconds": 287.2043975650449,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=3"
+   ],
+   "sha256": "ab51136251f6fa133e60b3ced6cfd3556c643361ccb840345a221a4f8ace3894",
+   "bytes": 132334
+  },
+  "theory/theory_delta0.5_g3_T32_m64_full_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.5_T32_m64_S4096_tw4_seed2_sobol_warm.json",
+   "gpu_seconds": 315.7038827610086,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=3"
+   ],
+   "sha256": "df94836dbdbd4cda05172af82db8287309ceee881319bc9660fec19948edcc1b",
+   "bytes": 132464
+  },
+  "theory/theory_delta0.5_g3_T32_m64_full_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g3_h0.5_T32_m64_S4096_tw4_seed3_sobol_warm.json",
+   "gpu_seconds": 304.00338440795895,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=3"
+   ],
+   "sha256": "e589b92aab5f3350d6277d24a7ffe9abd6b795355be540abd5bc932a3930ce99",
+   "bytes": 132398
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.224111201008782,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "af982bfcaebba91c9772f1c55633562acebfe90c9d899b03cc5cb23a0f92552e",
+   "bytes": 30425
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.772334292007145,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "fe347f7efce2963943d83ab2cf9cac103e4e96be7e0a03eb101d938550f4a378",
+   "bytes": 30468
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.54928843898233,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "10c48fe702dc2cd2379dbe4ea56223d14350bda294ba045012db20917ebd2901",
+   "bytes": 30455
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.41435829398688,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "44ea7b9e40fedcbbc621a64f13a76dbb97f158f92bbe428dfe7c6f4cbaec7f6b",
+   "bytes": 30445
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.15333186002681,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "68424611d096333581fdc9e986a95e55caba14d4510c758e065a7cf14ebd0f7e",
+   "bytes": 30456
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.500959836994298,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "c18ca9b0adf1598d7e96bfe31abeb880975ce755f824c080b4c468b9b733a42b",
+   "bytes": 30455
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.08238470897777,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "cb688635c07aad94adfc71130355a68628f67a1cc835c5e1a80394e6b16087ea",
+   "bytes": 30430
+  },
+  "theory/theory_delta0.5_g3_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g3_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 25.503367890953086,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=3"
+   ],
+   "sha256": "d3877bfc6011e8765f945e67522dcfb34f2f08212e16e4cec1096f55f5038d68",
+   "bytes": 30454
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 23.179928534955252,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "0da3854086d09fc22d59366b8a6847f5d248ff08feb2bfa87d866f1e0ea02d66",
+   "bytes": 30437
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.902501009055413,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "ee0399a13c7787594e6bfca70ceb97e12d7aea3275fd482d3ca2954ce38beb10",
+   "bytes": 30455
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.80470024800161,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "56d0ad0d809f6675c81cba0fe5674f2f86d072a1093174a488c8fd7e5262366f",
+   "bytes": 30442
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.984655054984614,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "f48a6756b9ad1ca6200e99b8295823edace1fc8d2197621c490e9247efbb4a9b",
+   "bytes": 30411
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.766288039973006,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "7761ea796949d335df4c2cee23dc84596fe76bab36588ef2261855558f90ed15",
+   "bytes": 30450
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.825339019007515,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "3a1b8dea1437fe61ffce9acce5abe7e694f10c61fd8ddca8d5ffe37ddf7c4c66",
+   "bytes": 30461
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 23.152695026015863,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "cb66c142f470e9ebbce4705ae057939803beaae047f0d99dce6a9e087c6d7f10",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.5_g4_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g4_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.70817898301175,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=4"
+   ],
+   "sha256": "bf8b2361ee742fc6f15438efe480997cdd090bcf139fd23cee6f672bf19179ba",
+   "bytes": 30466
+  },
+  "theory/theory_delta0.5_g5_T32_m64_full_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.5_T32_m64_S4096_tw4_seed0_sobol_warm.json",
+   "gpu_seconds": 229.31417466903804,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=5"
+   ],
+   "sha256": "b9cc08048fcfc507904baf6361833efda1ef43ff9733cccc853c9f49fd03c289",
+   "bytes": 137913
+  },
+  "theory/theory_delta0.5_g5_T32_m64_full_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.5_T32_m64_S4096_tw4_seed1_sobol_warm.json",
+   "gpu_seconds": 227.93499102804344,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=5"
+   ],
+   "sha256": "37650f5d399efc262e8537d19dcfc8d098bd1d4b1022c99e67c7ea0c56238c23",
+   "bytes": 137951
+  },
+  "theory/theory_delta0.5_g5_T32_m64_full_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.5_T32_m64_S4096_tw4_seed2_sobol_warm.json",
+   "gpu_seconds": 229.99707265099278,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=5"
+   ],
+   "sha256": "1a7888f2a70bf753b81efcff49e1a7dd9141fad37724316e18a222f7d25dd7a7",
+   "bytes": 137839
+  },
+  "theory/theory_delta0.5_g5_T32_m64_full_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/production/disc_g5_h0.5_T32_m64_S4096_tw4_seed3_sobol_warm.json",
+   "gpu_seconds": 246.19359011395136,
+   "uses": [
+    "Fig. 1 theory δ=0.5 g=5"
+   ],
+   "sha256": "838b5f9d35bb68fa61e9f98057ce99497dca06a0062ee9ace763ad6a040a6db6",
+   "bytes": 138001
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.13951776101021,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "4975bf1c035c9639755300fc71b31c18df2c321fecefe97024c5b37f12fdbde8",
+   "bytes": 30438
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.43296912999358,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "fe35aa44e8d8b7a5eda96096cfe1d9cab9b5763000e29766ffc70c000fb413bc",
+   "bytes": 30416
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.904929773998447,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "c2c80f18be5711cf861441d2252f30b8bb05d763468131598921c708753a6615",
+   "bytes": 30420
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.472527967998758,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "9f2d93687290d3fc1d81c8458566e393091b78b25d6bca3ca37438958bad93f0",
+   "bytes": 30455
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.046424494008534,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "7f8227839dc0270f8fc7f0a4ce231161672b83f2c4caf9bd28b3cfe6386a60fd",
+   "bytes": 30459
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.395581341988873,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "e57be8a85f65dcb00957e91bad847fd8aacbae668fbed9c8d520944a2911e9a7",
+   "bytes": 30463
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 22.000989775988273,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "704fb2f9c12ade668e63e1bef9001f06c55dcbe9ba615d80bd46faa6d32e3a03",
+   "bytes": 30430
+  },
+  "theory/theory_delta0.5_g5_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g5_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.904748264001682,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=5"
+   ],
+   "sha256": "a9961cb67167748197dbb1cd8ef62fc3144b733cafb1cdd6682897693ec3d9c4",
+   "bytes": 30418
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.157525337999687,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "6823479770a000cc3ea0ab8a88f3cac729c8c7d4317dd4be383aebcb1cd4579f",
+   "bytes": 30400
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 20.802528631989844,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "35e6485e962869c808693b3b4e7503258c284596ec0e806a3cf98f310be295a8",
+   "bytes": 30390
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.076781892974395,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "c3b5da1ad338b2f61bc042136b61cb60bb3f21cd830cde91f9f7379e9921bec8",
+   "bytes": 30415
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.098476564977318,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "cea5683a1d4a5f19e123aedc771e252e124c7dd3cb085b38a9eaf66919b43ee5",
+   "bytes": 30392
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 21.07848515600199,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "e9e32082b324e33348b3061509eb02359532e4d07f2e7bbaf3db2112f5b8c043",
+   "bytes": 30366
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 20.91045959998155,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "238f7d9cf6dcb271da4fd42d5cf3652230a733fc7a634e8570847e4bffbdc459",
+   "bytes": 30391
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 20.696861541015096,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "3b0f2d3399df1d02ebd34a976799e9700c4e0b4b2807e88a3328651a52ea966e",
+   "bytes": 30435
+  },
+  "theory/theory_delta0.5_g6_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g6_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 51.06619299197337,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=6"
+   ],
+   "sha256": "6859906718eafa573b329a80d73ef888abc6fcdff17e19b7707c6d69860cde20",
+   "bytes": 30407
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.599467227992136,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "8c319590a37f0464cf98509a5ca9454f9d445072494be80129bd1c7b071191b1",
+   "bytes": 30325
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.48940100404434,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "a9d069d8c4cb87ea274bae78a68078fdae5ca414c79397aa62ac3b9f973eeda4",
+   "bytes": 30359
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.56728291203035,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "b51df6e334b285bd64b4c4a73e816af2165dc5906aa5d1bd86e7c642a2589638",
+   "bytes": 30340
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.375031463976484,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "e7ffdd9078ce8485eaa362983a68dd601045492fdae5f65232e774941ca340bb",
+   "bytes": 30333
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.715972024947405,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "46c9350713ce4030be9031c290c7931e466d76ecc3bb5227c5531930ec655434",
+   "bytes": 30315
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.80183265195228,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "9ac06bd9ca26becec4f15b1f4560df1a2b0f7fc03ccdbd303ac6ed780b1ce6b7",
+   "bytes": 30343
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.420408406993374,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "34e9fecc6678f4eea33e37a2885c39e3b58633c40a384fd7d900caa9cc032fb5",
+   "bytes": 30347
+  },
+  "theory/theory_delta0.5_g8_T32_m64_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/disc_g8_h0.5_T32_m64_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 19.625316759978887,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ=0.5 g=8"
+   ],
+   "sha256": "82ae62065514bc3ccfbccb945e4753ab08897bb379013c6b606fb7118e018dd0",
+   "bytes": 30315
+  },
+  "theory/theory_delta0_g1.25_T64_m160_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g1.25_T64_m160_S4096_tw0_top_seed0_gsweep.json",
+   "gpu_seconds": 486.4281233359943,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.25"
+   ],
+   "sha256": "8e6b413e3dc25ab9fe40a36206f0e18addd8a20104aa21cec1191217eab73b92",
+   "bytes": 41806
+  },
+  "theory/theory_delta0_g1.25_T64_m160_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g1.25_T64_m160_S4096_tw0_top_seed1_gsweep.json",
+   "gpu_seconds": 482.8130747550167,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.25"
+   ],
+   "sha256": "30eca8b1f3565efdd070e62ddbbbd56ee8b37eb189ab03d7a15f8918a07b42a8",
+   "bytes": 41774
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 239.7327972340281,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "f8283f37da5715b8c8d91f8a1220c628df8967e5e4da99ec1a75d652c9e1f86a",
+   "bytes": 22262
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 231.00233190803556,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "021002d5505d5d577dcefc5ae7099d73be1caa5b64c5a2a1df4b84180ae04061",
+   "bytes": 22274
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 232.13506373297423,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "30b5d95c7de282e761149d130a181aedb233592b044dcc335f6914bef00d5edf",
+   "bytes": 22236
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 232.62803024397,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "e6732ce1b8692bd7a5815aa106a97bba19a9b49d31d1f5ae87ebf28d1e7e6ca3",
+   "bytes": 22254
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 233.19007261499064,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "b0a9b79009eb40b46692b383492d7dbbffca5bba6863b0a194b51be9c599ba32",
+   "bytes": 22262
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 232.73017662705388,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "4ebbe4f1e286fccdd814aa8376b11f8d3958f4d462e73659dc9c8f3bd027bcdd",
+   "bytes": 22287
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 234.37097123003332,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "1ee1225ab0169e2b5ab512fe5714b755127a17f252c89311677d3e3a4a9e7b6a",
+   "bytes": 22267
+  },
+  "theory/theory_delta0_g1.5_T64_m160_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g1.5_T64_m160_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 236.81443021004088,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=1.5"
+   ],
+   "sha256": "0b1305f629c8e432d6552cf1a19aace0c5a391f14609f2818fcd561f4602df51",
+   "bytes": 22289
+  },
+  "theory/theory_delta0_g10_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g10_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 508.13362136800424,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=10 (m=160, extrapolation pair)"
+   ],
+   "sha256": "1ae136e59c52ad1bb69416c3f0f55aae75fb00b81ba9c1e22130f4a37ce5bc2d",
+   "bytes": 76374
+  },
+  "theory/theory_delta0_g10_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g10_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 530.8057295990002,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=10 (m=160, extrapolation pair)"
+   ],
+   "sha256": "ba65f37ce9e0ef77471a63edcb3dcd7f871c91c61a2ecd4ff0069ab68da0570a",
+   "bytes": 76380
+  },
+  "theory/theory_delta0_g10_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g10_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1437.4284987450228,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=10 (m=256, extrapolation pair)"
+   ],
+   "sha256": "1167fee41ab7efb894e08ca56790c5ef8a66748516c6632e77228a9734ff6a27",
+   "bytes": 76535
+  },
+  "theory/theory_delta0_g10_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g10_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1400.1621554140002,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=10 (m=256, extrapolation pair)"
+   ],
+   "sha256": "bb7990fd0fff9f0489785fdf8be000167253d900a1347294d948abe3c9f5f13b",
+   "bytes": 76446
+  },
+  "theory/theory_delta0_g12_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g12_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 494.35764614201616,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=12 (m=160, extrapolation pair)"
+   ],
+   "sha256": "77e656e32885ea46422963435192644c22d48dc44ad3f7bf175b1f0e865a0431",
+   "bytes": 76422
+  },
+  "theory/theory_delta0_g12_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g12_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 507.76661685999716,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=12 (m=160, extrapolation pair)"
+   ],
+   "sha256": "ba2f3865bfcde0fbc1985cdb98df7f4a737d84937ad4e8e6e6d5cf396a0bfe43",
+   "bytes": 76360
+  },
+  "theory/theory_delta0_g12_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g12_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1407.2475223509828,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=12 (m=256, extrapolation pair)"
+   ],
+   "sha256": "e79ad093b4aaa22043feaac2a3446ec33d75ec43165e5112740db724bc3eca11",
+   "bytes": 76448
+  },
+  "theory/theory_delta0_g12_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g12_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1370.8150351090007,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=12 (m=256, extrapolation pair)"
+   ],
+   "sha256": "18bf000e4ef661f8e5d1c76ecb011c123f0eec10cff3981255b7ee2a09c8c46e",
+   "bytes": 76368
+  },
+  "theory/theory_delta0_g14_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g14_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 487.51755721101654,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=14 (m=160, extrapolation pair)"
+   ],
+   "sha256": "47f9534c376313bb20eb3ab01629fef8d3da9e1e910b0e59c890584570e59f24",
+   "bytes": 76410
+  },
+  "theory/theory_delta0_g14_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g14_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 489.91393200002494,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=14 (m=160, extrapolation pair)"
+   ],
+   "sha256": "6e159d6b8bd844b33e7668b78986a41a5e0f3eaa948d38eb0d6d402c779ae740",
+   "bytes": 76430
+  },
+  "theory/theory_delta0_g14_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g14_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1352.938909272023,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=14 (m=256, extrapolation pair)"
+   ],
+   "sha256": "48ab36b63cd36f9bb7ef459fae61c71f8e964741d23bb3ae5c34e43d5afa794b",
+   "bytes": 76404
+  },
+  "theory/theory_delta0_g14_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g14_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1355.9559026990028,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=14 (m=256, extrapolation pair)"
+   ],
+   "sha256": "a9e85ddcc37aac15c5a1388bc1445a59efc5ccbb176f21efc5f9bb15a0d07cdc",
+   "bytes": 76355
+  },
+  "theory/theory_delta0_g16_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g16_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 480.5373952020018,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=16 (m=160, extrapolation pair)"
+   ],
+   "sha256": "fb6137d0bdeac142b5fcdca78adaf436d486c8c9bb5609257eafc495ddb67e06",
+   "bytes": 76334
+  },
+  "theory/theory_delta0_g16_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g16_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 484.39939379598945,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=16 (m=160, extrapolation pair)"
+   ],
+   "sha256": "bac85505367d619c88c47247a7fba378c65dacbdef8457238366859ce07ab185",
+   "bytes": 76342
+  },
+  "theory/theory_delta0_g16_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g16_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1332.489642672008,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=16 (m=256, extrapolation pair)"
+   ],
+   "sha256": "837e610e60541e2dfb1580f7e14c6317e8df9e515a5f1c2acd2ae534893e851f",
+   "bytes": 76333
+  },
+  "theory/theory_delta0_g16_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g16_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1370.6993326480151,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=16 (m=256, extrapolation pair)"
+   ],
+   "sha256": "07624bfc1db0aa9b88037775fcb1e65c1f5baaecf92ba91d58c144f7fcbcc24d",
+   "bytes": 76304
+  },
+  "theory/theory_delta0_g18_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g18_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 488.0146727900137,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=18 (m=160, extrapolation pair)"
+   ],
+   "sha256": "cc6ba87c2432f8f1a767dc4e4262cc91652d63ee64fbcd7fad4173e549229d07",
+   "bytes": 76406
+  },
+  "theory/theory_delta0_g18_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g18_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 478.6022191059892,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=18 (m=160, extrapolation pair)"
+   ],
+   "sha256": "ab7ed4f03e1ecdee2e6134a21e97e33ab4244f743a6399dc6210d94c7742e8d8",
+   "bytes": 76261
+  },
+  "theory/theory_delta0_g18_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g18_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1321.601989621995,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=18 (m=256, extrapolation pair)"
+   ],
+   "sha256": "b333451a5e0507b0e2264a4b075fe0d2923b2f61716def4d5d3f42b65e759ab3",
+   "bytes": 76372
+  },
+  "theory/theory_delta0_g18_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g18_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1366.8565501980484,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=18 (m=256, extrapolation pair)"
+   ],
+   "sha256": "c3f2d66a4af9af7172dadca298425b36cf4926773da2eef6b88860d92a1f3e57",
+   "bytes": 76375
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.712987846985925,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "93e67787e5037f3f3fa078d7328bace694a4a942102c216cc2825e410d70ea94",
+   "bytes": 22235
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.44020634499611,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "e6f6b649655c135e0e55e3cee1a71e702164822614818ebebc04e9ed28ed004f",
+   "bytes": 22241
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 43.13231703202473,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "bb8a24e57b020ea4922559625dff9e36d8e97079e88b3a6563af82b0caa832c2",
+   "bytes": 22242
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.539476084988564,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "b90ee4d14ab410ea0b515b393c78139e7149fac90a3ae3d7d87273c74c769ca4",
+   "bytes": 22235
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.53872911102371,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "20b2eef7fba65c57ee84fb0754bf83d4b54ed6f73507cd838d3ce834172356e5",
+   "bytes": 22254
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 43.04173284798162,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "c30b42bb7d84c36f52f23cb7d3491f37d43c89b1acd50eacca5361fe6418256a",
+   "bytes": 22217
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.57034170202678,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "0cab7a684251d436f0d5f759ca764cceed9f5ecfa56b7e70bb69cb12c53d13c4",
+   "bytes": 22238
+  },
+  "theory/theory_delta0_g2.5_T32_m80_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2.5_T32_m80_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 42.30749053298496,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2.5"
+   ],
+   "sha256": "5ee9bd9531d001f669167df035562d6a2d407f993d9a39f936e207ed30420549",
+   "bytes": 22235
+  },
+  "theory/theory_delta0_g20_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T32_m160_S4096_tw4_upper_seed0_check_dt.json",
+   "gpu_seconds": 483.7498155499925,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=20 (m=160, extrapolation pair)"
+   ],
+   "sha256": "1c430a4e90b61de40795393333dea39d15d377864746c84a8b8f0bd744ca9181",
+   "bytes": 76310
+  },
+  "theory/theory_delta0_g20_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g20_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 475.6088467040099,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=20 (m=160, extrapolation pair)"
+   ],
+   "sha256": "7761014f24657c0834b34b76bba094fdb9e9c02476fae570b32cef641b15ebc0",
+   "bytes": 76331
+  },
+  "theory/theory_delta0_g20_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T32_m256_S4096_tw4_upper_seed0_check_dt.json",
+   "gpu_seconds": 1339.074430574954,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=20 (m=256, extrapolation pair)"
+   ],
+   "sha256": "472b9a4f9ec1e78c6cb5defc6f1178c7f784623a2ccfce8cba05d55e765fe0d4",
+   "bytes": 76279
+  },
+  "theory/theory_delta0_g20_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g20_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1343.3834684789763,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=20 (m=256, extrapolation pair)"
+   ],
+   "sha256": "34e8cedeaa439d8fff367d1e721e5b9448ae3054973741c3ae446936e498fb41",
+   "bytes": 76290
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 174.01625251601217,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "9b3a75e3995c04a9eadba375316197a81077d04bc06ecaca5d00d30f08bc3d02",
+   "bytes": 22260
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 173.6200068849721,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "c9c03deb658c26fdfac1dc6dada1ee91e94f0a855b6df356c77b4600ae3d1741",
+   "bytes": 22237
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 172.3802536079893,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "4d47d2c3becbe70f48899a56b433de752a2b850062019bf1c4df298678f4afa7",
+   "bytes": 22241
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 172.67664841603255,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "137828925b20d2715a9619dbbe896f95233eb65f568fc8d2391cdd2647b1f20a",
+   "bytes": 22229
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 172.39026971400017,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "2c55bf9e6c19052360c1a22ac333db75cdaa320914528510cecb95d9347857ff",
+   "bytes": 22240
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 173.1078670460265,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "1ec03dd9824c8f23c7a03ced6ecb67f1e218329041471cf7b6f826f719bd2e13",
+   "bytes": 22261
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 172.2609330889536,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "eaa2b6bedda1f3ded27646e5f18ab6bccbb8ac1a1d77258d72cc73f339c07af6",
+   "bytes": 22253
+  },
+  "theory/theory_delta0_g2_T64_m160_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g2_T64_m160_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 172.57142428104999,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=2"
+   ],
+   "sha256": "e6de2992ef5c222ee11e9af4b829578f3fbe10bacbef1cad58a0c68555afc4f9",
+   "bytes": 22256
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.780917316966224,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "accf43c6d713958f1bac442a520458f672528bf18f869ca6253f84093ca14753",
+   "bytes": 22243
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.51848924002843,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "8273d682c796866bec7a8ca81c202ad785967c00205e944d18c89a1a3bf5532c",
+   "bytes": 22241
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.806426026974805,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "8041b2b8e74add6ea672aa4f6407db63abe64266781b11d9ad4c5f61d9e66aa0",
+   "bytes": 22232
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.51035303500248,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "2782bd87090b0de3e876200bfb76b130c2fb2b3666fb5ed538b96fa6c0137d1d",
+   "bytes": 22208
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.20562100602547,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "39e19d743134a668d72331400f07cd9c51f4554a2c4b792d091e5cffefc423d2",
+   "bytes": 22239
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.215805318031926,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "82e4c868b42de65d3d2d284f4e5b95ecdd070acd1d679e4a0b28e9361d38fdeb",
+   "bytes": 22247
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.4309494200279,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "295296674b6fe78090034ef15da5afdf60acdf352951b97378821f8c9deef586",
+   "bytes": 22254
+  },
+  "theory/theory_delta0_g3_T32_m80_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g3_T32_m80_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 39.83482432097662,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=3"
+   ],
+   "sha256": "c78a5f751240f0a2ca907af6308021a4b1a3b108b3b2bdb930a152383690b1aa",
+   "bytes": 22238
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.305549508018885,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "08e7e7134f9e2a79e4fb6695931c92971e065e9ab43f172883b71a629d5324e6",
+   "bytes": 22240
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.087883146014065,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "00ba2bf80f458654b30430183388cd13ac00effe9b1339d8289b8445eff6f3d2",
+   "bytes": 22243
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.333789898024406,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "c6b90a0cdd0640bbe58ee388004eb897a08abf710bbf786b0e6327e24271b3e3",
+   "bytes": 22233
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 35.8368847600068,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "8ac0fd7a7a4e2dbd16111d31966b1841d39f0c6852f077101d2f69f51bd9500b",
+   "bytes": 22231
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.19443912198767,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "a9363e5106e4629b52033431adf66a6bd44405423d569f2b71cd42d8ad93bab2",
+   "bytes": 22240
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 35.831370921980124,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "bcc2a4608f4256bb8e3ca04788a9b1d58b6cb541903d4223b690070f3cafc074",
+   "bytes": 22233
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.22484545898624,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "16df4bdeb8c14c8f0e24e00498bf8b70000cf94de1a4720733d5da0323674419",
+   "bytes": 22254
+  },
+  "theory/theory_delta0_g4_T32_m80_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g4_T32_m80_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 36.2282972119865,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=4"
+   ],
+   "sha256": "eebd763007f2f7d2a76aa8c5772ede3ed453491350cbff67ee76d7371472d93a",
+   "bytes": 22232
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 33.82420324999839,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "c00405aaa54da431dcfa8dcd5299e633380971d6eb4e833abddd9f104ce37479",
+   "bytes": 22213
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 34.06380669999635,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "5e29d8e9a42beda81d3049513155f97a7702848914e940f18381d0fd9b85bf0c",
+   "bytes": 22207
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 34.009479472995736,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "1c885c00e39847c185fa49401fb49325021ebf42d3e5231c569f5ff800a53918",
+   "bytes": 22247
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 33.90171776898205,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "1f624938024b084c3bdf2c069c84bc2b954cbe712a03ed7ecf11e98706e3e440",
+   "bytes": 22213
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 33.67705876502441,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "f88444da225c9f85d722d8551e9d845276673e28bd12a0c9a22916d981acdcad",
+   "bytes": 22190
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 33.764260444033425,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "2c9fb5e4ad7a01bb5bf0dd79165cfa728ea0695e029a56a8a1b4d3c6d7868360",
+   "bytes": 22213
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 34.14931621699361,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "25500c08d2be46e7733c0d944f376a38fac146a9c69fb4f9e099ebef04b105ff",
+   "bytes": 22217
+  },
+  "theory/theory_delta0_g5_T32_m80_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g5_T32_m80_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 33.739657684986014,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=5"
+   ],
+   "sha256": "54047a32aef9b31fe00a26e75bcae8c174a898459b9f8b21020bd986ce4b5d51",
+   "bytes": 22218
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed0_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.55829759297194,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "4eb85a0a4b3536e46fa7958fc5f40d657c0ed96b7519e6df3f1191ac8bff4753",
+   "bytes": 22187
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed1_sobol_warm_gsweep.json",
+   "gpu_seconds": 115.22580727899913,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "81fd56f66b994db6099a683d1cb9a295abb6bb057984c0f8274cf49da8b2a2df",
+   "bytes": 22209
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed2.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed2_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.50952377397334,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "7caf59a339d95f1e4f389dc9e8f2bd460b36fa631d5cb8894d01edae7a586f6f",
+   "bytes": 22224
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed3.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed3_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.69735223299358,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "eb868acc8f50f0918e8b2c312049f5961c7e4fcdf8240656ffbe9b92e2eed88a",
+   "bytes": 22197
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed4.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed4_sobol_warm_gsweep.json",
+   "gpu_seconds": 115.17185044300277,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "8dd10e1b8f101b45f2ba31a64c5185df58053847d4cd26d65765bb69cec8c55a",
+   "bytes": 22215
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed5.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed5_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.64361432101578,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "8e032ef7b17f5a395c12c8d6725e3f32be735926096863fe7346aa5eac0f4a24",
+   "bytes": 22181
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed6.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed6_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.83907020202605,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "3b86bfe3f3d798a0943f283a56a97fa6857a87991cccb7bf5a9f59645f62ef25",
+   "bytes": 22213
+  },
+  "theory/theory_delta0_g6_T32_m160_top_seed7.json": {
+   "kind": "theory_cdf",
+   "source": "old/results/theory/gsweep/cont_g6_T32_m160_S4096_tw0_seed7_sobol_warm_gsweep.json",
+   "gpu_seconds": 114.23184154398041,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=6"
+   ],
+   "sha256": "c4513f957b9bdf79cec06734fac73e07d2231fed4055b90c7036ba8d1fed2599",
+   "bytes": 22196
+  },
+  "theory/theory_delta0_g8_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g8_T32_m160_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 526.4740020339959,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=8 (m=160, extrapolation pair)"
+   ],
+   "sha256": "8f246a9e394b4d88c11e7dad7b6530cf77dcbee2dd44bfbbd1441bbde3ee8b96",
+   "bytes": 76654
+  },
+  "theory/theory_delta0_g8_T32_m160_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g8_T32_m160_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 525.1299332159979,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=8 (m=160, extrapolation pair)"
+   ],
+   "sha256": "48b32a9006aa497508a4889e174bc9c41e0bbc2b910484ce9adc4f0b3cb26152",
+   "bytes": 76587
+  },
+  "theory/theory_delta0_g8_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g8_T32_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1488.0312050100183,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=8 (m=256, extrapolation pair)"
+   ],
+   "sha256": "e1b11ca9baf6d45d1c4930c47a757c7d3a0f568e252ebdff6054725156cfcd31",
+   "bytes": 76521
+  },
+  "theory/theory_delta0_g8_T32_m256_upper_seed1.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g8_T32_m256_S4096_tw4_upper_seed1_gsweep.json",
+   "gpu_seconds": 1451.1942261240038,
+   "uses": [
+    "Fig. 2 theory D_KY/N, h_KS/N δ→0 g=8 (m=256, extrapolation pair)"
+   ],
+   "sha256": "f5343fb5be9efb3cf88238f4f15227833817f3d38c1c7aaa780c38fd9237246a",
+   "bytes": 76647
+  },
+  "theory_checks/theory_delta0_g20_T32_m160_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T32_m160_S4096_tw4_upper_seed0_check_dt.json",
+   "gpu_seconds": 483.7498155499925,
+   "uses": [
+    "δ→0 grid-spacing study g=20 (supports the extrapolation)"
+   ],
+   "sha256": "1c430a4e90b61de40795393333dea39d15d377864746c84a8b8f0bd744ca9181",
+   "bytes": 76310
+  },
+  "theory_checks/theory_delta0_g20_T32_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T32_m256_S4096_tw4_upper_seed0_check_dt.json",
+   "gpu_seconds": 1339.074430574954,
+   "uses": [
+    "δ→0 grid-spacing study g=20 (supports the extrapolation)"
+   ],
+   "sha256": "472b9a4f9ec1e78c6cb5defc6f1178c7f784623a2ccfce8cba05d55e765fe0d4",
+   "bytes": 76279
+  },
+  "theory_checks/theory_delta0_g20_T32_m320_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T32_m320_S4096_tw4_upper_seed0_check_dt.json",
+   "gpu_seconds": 2240.2271804829943,
+   "uses": [
+    "δ→0 grid-spacing study g=20 (supports the extrapolation)"
+   ],
+   "sha256": "65271ef0bb787a25bb9e53551a9441f7ed3416ca8c16bb1d29c374d59a268936",
+   "bytes": 76312
+  },
+  "theory_checks/theory_delta0_g20_T64_m256_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/gsweep_large/cont_g20_T64_m256_S4096_tw4_upper_seed0_gsweep.json",
+   "gpu_seconds": 1112.9166681799688,
+   "uses": [
+    "δ→0 grid-spacing study g=20 (supports the extrapolation)"
+   ],
+   "sha256": "4f6304b2b98fb2c0cb4444df0395752aeb9e1f6089791a4eb93036dfb51f93e0",
+   "bytes": 76375
+  },
+  "theory_checks/theory_delta0_g20_T64_m320_upper_seed0.json": {
+   "kind": "theory_cdf",
+   "source": "results/theory/flow_checks/cont_g20_T64_m320_S4096_tw4_upper_seed0_check_window.json",
+   "gpu_seconds": 1792.6037134000217,
+   "uses": [
+    "δ→0 grid-spacing study g=20 (supports the extrapolation)"
+   ],
+   "sha256": "f5fa9ab7918ce9b2c86bd494095cb596bf669b25a4243fbd022ad7b1ca455e7d",
+   "bytes": 76382
+  }
+ }
+}

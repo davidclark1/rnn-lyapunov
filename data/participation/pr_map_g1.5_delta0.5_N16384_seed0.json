@@ -1,0 +1,17 @@
+{
+ "kind": "participation_simulation",
+ "g": 1.5,
+ "delta": 0.5,
+ "rk4_dt": null,
+ "N": 16384,
+ "seed": 0,
+ "t_burn": 1000.0,
+ "t_obs": 40000.0,
+ "blocks": 8,
+ "sample_dt": 0.5,
+ "x": {"pr_naive":0.006759489462132344,"pr_cross":0.006925057168181309,"pr_cross_se":0.00011022426749624485,"variance":0.7521690356445072},
+ "phi": {"pr_naive":0.007514365075553693,"pr_cross":0.00771117730691325,"pr_cross_se":0.00012204789240833716,"variance":0.34305104690095434},
+ "sample_every_steps": 1,
+ "samples_per_block": 10000,
+ "provenance": {"code_sha":"118c2801badee211","created_utc":"2026-10-04T13:41:48.147000+00:00","argv":["experiments/gsweep_participation.py","--g","1.5","--h","0.5","--N","16384","--t-burn","1000","--t-obs","40000","--seed","0","--out-dir","results/participation/N16384","--device","cuda:0"],"python":"3.11.11","numpy":"2.2.4","scipy":"1.15.2","torch":"2.6.0","host":"cluster node","platform":"Linux-5.14.0-687.51.1.el9_8.x86_64-x86_64-with-glibc2.34","gpu":"NVIDIA A100-SXM4-80GB","cuda":"12.5","driver":{"file":"experiments/gsweep_participation.py","sha":"1b618159773b5136","archived_module":"old/src/participation.py","archived_sha":"3b9a3fd2fd8fa403"},"seconds":"not recorded","imported_from":"results/participation/N16384/map_g1.5_h0.5_N16384_seed0.json","imported_sha256":"3afe5071474b701a659f9c3d7d6a90035a7876443b4c1b5377a948616e17db73"}
+}

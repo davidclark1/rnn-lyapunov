@@ -1,0 +1,17 @@
+{
+ "kind": "participation_simulation",
+ "g": 2.5,
+ "delta": null,
+ "rk4_dt": 0.1,
+ "N": 16384,
+ "seed": 0,
+ "t_burn": 300.0,
+ "t_obs": 20000.0,
+ "blocks": 8,
+ "sample_dt": 0.5,
+ "x": {"pr_naive":0.020918971696985676,"pr_cross":0.023720177419737906,"pr_cross_se":0.0002972829084526203,"variance":3.5023068199411744},
+ "phi": {"pr_naive":0.027555188806460212,"pr_cross":0.03190696328033658,"pr_cross_se":0.0003900514963555626,"variance":0.6142018370816708},
+ "sample_every_steps": 5,
+ "samples_per_block": 5000,
+ "provenance": {"code_sha":"118c2801badee211","created_utc":"2026-10-06T16:14:31.652092+00:00","argv":["experiments/gsweep_participation.py","--g","2.5","--h","0.1","--scheme","flow","--N","16384","--t-obs","20000","--seed","0","--out-dir","results/participation/N16384","--device","cuda:0"],"python":"3.11.11","numpy":"2.2.4","scipy":"1.15.2","torch":"2.6.0","host":"cluster node","platform":"Linux-5.14.0-687.12.1.el9_8.x86_64-x86_64-with-glibc2.34","gpu":"NVIDIA H100","cuda":"12.5","driver":{"file":"experiments/gsweep_participation.py","sha":"842b339e62ec6f8d","archived_module":"old/src/participation.py","archived_sha":"3b9a3fd2fd8fa403"},"seconds":"not recorded","imported_from":"results/participation/N16384/flow_g2.5_h0.1_N16384_seed0.json","imported_sha256":"4361555b8971757e62c734c74ac9974da657e0e2cec4a1d4051a34f4e498c502"}
+}

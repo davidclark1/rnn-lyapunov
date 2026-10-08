@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rnn-lyapunov"
+version = "1.0.0"
+description = "Code and data for \"Lyapunov spectrum of random neural networks\": dynamical mean-field (single-site) theory and direct simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "David G. Clark" }]
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24", "scipy>=1.11", "torch>=2.1", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: minutes on CPU; run with -m slow",
+    "gpu: needs a CUDA GPU (skipped otherwise)",
+]
+addopts = "-m 'not slow'"

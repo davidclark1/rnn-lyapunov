@@ -1,0 +1,7 @@
+# checks_theory: 5 data files; GPU-hours 1.9; delta -> 0 grid-spacing study at g = 20 (spacings 0.2, 0.125 repeat two Fig. 2 runs, so that the list stands alone)
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_theory.py --g 20 --delta 0 --T 32 --m 160 --grid upper --n-above 12 --spacing 0.05 --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory_checks
+scripts/run_theory.py --g 20 --delta 0 --T 32 --m 256 --grid upper --n-above 12 --spacing 0.05 --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory_checks
+scripts/run_theory.py --g 20 --delta 0 --T 32 --m 320 --grid upper --n-above 12 --spacing 0.05 --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory_checks
+scripts/run_theory.py --g 20 --delta 0 --T 64 --m 256 --grid upper --n-above 12 --spacing 0.05 --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory_checks
+scripts/run_theory.py --g 20 --delta 0 --T 64 --m 320 --grid upper --n-above 12 --spacing 0.05 --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory_checks

@@ -1,0 +1,22 @@
+# fig1_theory: 20 data files; GPU-hours 14.1
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_theory.py --g 3 --delta 0.05 --T 32 --grid full --paths 1024 --twists 2 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.05 --T 32 --grid full --paths 1024 --twists 2 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.1 --T 32 --grid full --paths 2048 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.1 --T 32 --grid full --paths 2048 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 1 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 2 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 3 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 1 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 2 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.25 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 3 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 1 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 2 --out-dir results/theory
+scripts/run_theory.py --g 3 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 3 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 0 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 1 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 2 --out-dir results/theory
+scripts/run_theory.py --g 5 --delta 0.5 --T 32 --grid full --paths 4096 --twists 4 --eps 0.1 0.03 0.01 0.003 0.001 0.0004 0.00016 --dmft-tmax 80 --seed 3 --out-dir results/theory

@@ -1,0 +1,72 @@
+# fig2_network: 70 data files; GPU-hours 5.9
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_network.py --g 1.25 --rk4-dt 0.1 --N 8192 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.25 --rk4-dt 0.1 --N 8192 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 5 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.25 --rk4-dt 0.1 --N 8192 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 5 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.25 --rk4-dt 0.1 --N 8192 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 5 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.25 --rk4-dt 0.1 --N 8192 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 5 --seed 4 --out-dir results/network
+scripts/run_network.py --g 1.5 --rk4-dt 0.1 --N 8192 --k 512 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.5 --rk4-dt 0.1 --N 8192 --k 512 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 5 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.5 --rk4-dt 0.1 --N 8192 --k 512 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 5 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.5 --rk4-dt 0.1 --N 8192 --k 512 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 5 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.5 --rk4-dt 0.1 --N 8192 --k 512 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 5 --seed 4 --out-dir results/network
+scripts/run_network.py --g 2 --rk4-dt 0.1 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2.5 --rk4-dt 0.1 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --rk4-dt 0.1 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 4 --rk4-dt 0.1 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --rk4-dt 0.1 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 5 --seed 0 --out-dir results/network
+scripts/run_network.py --g 6 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 8 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 10 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 12 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 14 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 16 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 18 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 20 --rk4-dt 0.05 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 10 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.25 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.25 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 2 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.25 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 2 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.25 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 2 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.25 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 2 --seed 4 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.5 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.5 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 1 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.5 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 1 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.5 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 1 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.25 --delta 0.5 --N 16384 --k 256 --t-burn 4000 --t-tangent-burn 200 --t-obs 8000 --qr-every 1 --seed 4 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.25 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.25 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.25 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.25 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.25 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 4 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.5 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.5 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 1 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.5 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 2 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.5 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 3 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 0.5 --N 16384 --k 768 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 4 --out-dir results/network
+scripts/run_network.py --g 2 --delta 0.25 --N 4096 --k 1024 --t-burn 1000 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2 --delta 0.5 --N 4096 --k 1024 --t-burn 1000 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2.5 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2.5 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.25 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 1 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.25 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 2 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.5 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 1 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.5 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 2 --out-dir results/network
+scripts/run_network.py --g 3 --delta 0.5 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 3 --out-dir results/network
+scripts/run_network.py --g 4 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 4 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 6 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 6 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 8 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 8 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 10 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 10 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 12 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 12 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 14 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 14 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 16 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 16 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 18 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 18 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 20 --delta 0.25 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 20 --delta 0.5 --N 4096 --k 1024 --t-burn 300 --t-tangent-burn 200 --t-obs 2000 --qr-every 1 --seed 0 --out-dir results/network

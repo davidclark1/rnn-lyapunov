@@ -1,0 +1,17 @@
+# fig4_network: 15 data files; GPU-hours 1.2 + scripts/run_max_exponent.py (minutes); Fig. 4c also uses the networks of fig1_network.txt and fig2_network.txt
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_max_exponent.py --out results/max_exponent_operator
+scripts/run_network.py --g 1.2 --delta 1 --N 4096 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.5 --delta 1 --N 4096 --t-burn 1000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.75 --delta 0.25 --N 16384 --k 1024 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 2 --seed 0 --out-dir results/network
+scripts/run_network.py --g 1.75 --delta 0.5 --N 16384 --k 1024 --t-burn 2000 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 2.5 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 6000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 3 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 1 --out-dir results/network
+scripts/run_network.py --g 3 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 2 --out-dir results/network
+scripts/run_network.py --g 4 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 5 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 6000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 6 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 8 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network
+scripts/run_network.py --g 10 --delta 1 --N 4096 --t-burn 300 --t-tangent-burn 200 --t-obs 4000 --qr-every 1 --seed 0 --out-dir results/network

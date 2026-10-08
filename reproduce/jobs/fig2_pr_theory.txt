@@ -1,0 +1,5 @@
+# fig2_pr_theory: 3 data files; GPU-hours 0.3
+# run from the repository root, one GPU per command (CUDA_VISIBLE_DEVICES=<id>)
+scripts/run_pr_theory.py --delta 0 --quad-dz 0.02 --min-points 16384 --out-dir results/participation_theory
+scripts/run_pr_theory.py --delta 0.25 --quad-dz 0.02 --min-points 16384 --out-dir results/participation_theory
+scripts/run_pr_theory.py --delta 0.5 --quad-dz 0.02 --min-points 16384 --out-dir results/participation_theory
