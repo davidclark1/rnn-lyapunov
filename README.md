@@ -1,6 +1,7 @@
 # rnn-lyapunov
 
-Code and data for **D. G. Clark, *Lyapunov spectrum of random neural networks***.
+Code and data for **D. G. Clark, *Lyapunov spectrum of random neural networks***,
+[arXiv:2610.12426](https://arxiv.org/abs/2610.12426).
 
 The model is a random recurrent network with time step δ,
 
@@ -121,3 +122,15 @@ tools/              dataset import and verification against the original researc
 ## For AI agents
 
 Read [`AGENTS.md`](AGENTS.md) first.
+
+## Citation
+
+```bibtex
+@article{clark2026lyapunov,
+  title   = {Lyapunov spectrum of random neural networks},
+  author  = {Clark, David G.},
+  journal = {arXiv preprint arXiv:2610.12426},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2610.12426}
+}
+```
